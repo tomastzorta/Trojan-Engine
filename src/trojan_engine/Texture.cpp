@@ -9,6 +9,8 @@ namespace trojan_engine
 
     void Texture::onLoad()
     {
-        m_texture->load(getPath());
+
     }
+
+
 }

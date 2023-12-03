@@ -626,4 +626,6 @@ CMakeFiles/trojan_engine.dir/src/trojan_engine/Entity.cpp.obj: \
  E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_timer.h \
  E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_version.h \
  E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_locale.h \
- E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_misc.h
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_misc.h \
+ E:\Coding\ Projects\Trojan-Engine\src\trojan_engine\Resources.h \
+ E:\Coding\ Projects\Trojan-Engine\src\trojan_engine\Resource.h

@@ -37,7 +37,7 @@ add_library (trojan_engine
 	src/trojan_engine/trojanEngine.h
 	src/trojan_engine/TriangleRenderer.cpp
 	src/trojan_engine/TriangleRenderer.h
-        src/trojan_engine/Transform.h
+		src/trojan_engine/Transform.h
         src/trojan_engine/Transform.cpp
         src/trojan_engine/Resource.cpp
         src/trojan_engine/Resource.h
@@ -45,6 +45,8 @@ add_library (trojan_engine
 		src/trojan_engine/Texture.h
 		src/trojan_engine/Resources.cpp
 		src/trojan_engine/Resources.h
+		src/trojan_engine/image.jpg
+
 )
 target_link_libraries(trojan_engine rend SDL2)
 
@@ -59,5 +61,4 @@ add_custom_command(TARGET demo POST_BUILD
     ${PROJECT_SOURCE_DIR}/contrib/windows-cl-amd64/bin
     $<TARGET_FILE_DIR:demo>
 )
-
 target_link_libraries(demo trojan_engine)

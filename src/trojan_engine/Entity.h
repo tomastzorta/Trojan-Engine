@@ -4,17 +4,17 @@
 #include <memory>
 #include "Transform.h" // Include the Transform component
 
-namespace trojan_engine {
+namespace trojan_engine
+{
     struct Core;
     struct Component;
+    struct Resources;
 
-    struct Entity {
-        Entity()
-        {
-            m_transform = addComponent<Transform>(); // Add a Transform component upon creation
-        }
+    struct Entity
+    {
+        Entity();
 
-        template <typename T>
+        template<typename T>
         std::shared_ptr<T> addComponent()
         {
             std::shared_ptr<T> rtn = std::make_shared<T>();
@@ -27,12 +27,9 @@ namespace trojan_engine {
             return rtn;
         }
 
-        std::shared_ptr<Transform> getTransform() // Add a getter for the Transform component
-        {
-            return m_transform.lock();
-        }
+        std::shared_ptr<Transform> getTransform();
 
-
+        std::shared_ptr<Resources> getResources();
 
         bool alive();
         void kill();
@@ -47,6 +44,7 @@ namespace trojan_engine {
         std::vector<std::shared_ptr<Component> > m_components;
         std::weak_ptr<Core> m_core;
         std::weak_ptr<Entity> m_self;
-        std::weak_ptr<Transform> m_transform; // Add a weak pointer to the Transform component
+        std::weak_ptr<Transform> m_transform;
+        std::shared_ptr<Resources> m_resources;
     };
 }

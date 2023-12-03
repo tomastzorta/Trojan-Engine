@@ -143,18 +143,4 @@ CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources.cpp.obj: \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
- E:\Coding\ Projects\Trojan-Engine\src\trojan_engine\Resource.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/string.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/base.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/criticalpin.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/zero.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/panic.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/config.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/weakpin.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/vector.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/ptr.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/lock.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/autoptr.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/weakptr.h \
- E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/string.h \
- E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h
+ E:\Coding\ Projects\Trojan-Engine\src\trojan_engine\Resource.h

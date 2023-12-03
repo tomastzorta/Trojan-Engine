@@ -669,4 +669,5 @@ CMakeFiles/demo.dir/src/demo/main.cpp.obj: \
  E:/Coding\ Projects/Trojan-Engine/src/sys/io.h \
  E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Texture.h \
  E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resource.h \
- E:/Coding\ Projects/Trojan-Engine/src/rend/Texture.h
+ E:/Coding\ Projects/Trojan-Engine/src/rend/Texture.h \
+ E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resources.h

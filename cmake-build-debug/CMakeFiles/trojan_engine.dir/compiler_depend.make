@@ -1622,7 +1622,9 @@ CMakeFiles/trojan_engine.dir/src/trojan_engine/Entity.cpp.obj: E:/Coding\ Projec
   E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_timer.h \
   E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_version.h \
   E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_locale.h \
-  E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_misc.h
+  E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_misc.h \
+  E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resources.h \
+  E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resource.h
 
 CMakeFiles/trojan_engine.dir/src/trojan_engine/Resource.cpp.obj: E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resource.cpp \
   E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resource.h \
@@ -1722,7 +1724,9 @@ CMakeFiles/trojan_engine.dir/src/trojan_engine/Resource.cpp.obj: E:/Coding\ Proj
   E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
   E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
   E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
-  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple
+  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
+  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/utility \
+  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_relops.h
 
 CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources.cpp.obj: E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resources.cpp \
   E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resources.h \
@@ -4798,11 +4802,15 @@ E:/Coding\ Projects/Trojan-Engine/src/sys/exception.h:
 
 E:/Coding\ Projects/Trojan-Engine/src/sys/io.h:
 
+E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resources.h:
+
 E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resource.cpp:
 
-E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resources.cpp:
+E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/utility:
 
-E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resources.h:
+E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_relops.h:
+
+E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resources.cpp:
 
 E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Texture.h:
 

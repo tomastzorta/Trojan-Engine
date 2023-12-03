@@ -4,6 +4,8 @@
 
 #include "Resource.h"
 
+#include <utility>
+
 namespace trojan_engine
 {
     std::string Resource::getPath()

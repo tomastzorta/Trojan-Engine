@@ -314,6 +314,9 @@
 		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/TriangleRenderer.h">
 			<Option target="trojan_engine"/>
 		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/image.jpg">
+			<Option target="trojan_engine"/>
+		</Unit>
 		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/trojanEngine.h">
 			<Option target="trojan_engine"/>
 		</Unit>

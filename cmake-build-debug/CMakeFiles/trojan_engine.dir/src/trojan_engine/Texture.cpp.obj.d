@@ -108,29 +108,38 @@ CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.obj: \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
  E:\Coding\ Projects\Trojan-Engine\src\trojan_engine\Resource.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/string.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/base.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/criticalpin.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/zero.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/panic.h \
- E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/locale.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string_view \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
- E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
- E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/config.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/weakpin.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/vector.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/ptr.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/lock.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/autoptr.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/weakptr.h \
- E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/string.h \
- E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/charconv.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
  E:/Coding\ Projects/Trojan-Engine/src/rend/Texture.h \
  E:/Coding\ Projects/Trojan-Engine/src/rend/rendmath.h \
  E:/Coding\ Projects/Trojan-Engine/src/rend/glm/glm.hpp \
@@ -154,7 +163,6 @@ CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.obj: \
  E:/Coding\ Projects/Trojan-Engine/src/rend/glm/detail/setup.hpp \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cassert \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/assert.h \
- E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
  E:/Coding\ Projects/Trojan-Engine/src/rend/glm/simd/platform.h \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
@@ -421,6 +429,8 @@ CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.obj: \
  E:/Coding\ Projects/Trojan-Engine/src/rend/glm/gtc/packing.hpp \
  E:/Coding\ Projects/Trojan-Engine/src/rend/glm/gtc/packing.inl \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/string.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
  E:/Coding\ Projects/Trojan-Engine/src/rend/glm/gtc/random.hpp \
  E:/Coding\ Projects/Trojan-Engine/src/rend/glm/gtc/random.inl \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
@@ -437,5 +447,17 @@ CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.obj: \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/inttypes.h \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/GL/glu.h \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/GL/gl.h \
+ E:/Coding\ Projects/Trojan-Engine/src/sys/string.h \
+ E:/Coding\ Projects/Trojan-Engine/src/sys/base.h \
+ E:/Coding\ Projects/Trojan-Engine/src/sys/criticalpin.h \
+ E:/Coding\ Projects/Trojan-Engine/src/sys/zero.h \
+ E:/Coding\ Projects/Trojan-Engine/src/sys/panic.h \
+ E:/Coding\ Projects/Trojan-Engine/src/sys/config.h \
+ E:/Coding\ Projects/Trojan-Engine/src/sys/weakpin.h \
+ E:/Coding\ Projects/Trojan-Engine/src/sys/vector.h \
+ E:/Coding\ Projects/Trojan-Engine/src/sys/ptr.h \
+ E:/Coding\ Projects/Trojan-Engine/src/sys/lock.h \
+ E:/Coding\ Projects/Trojan-Engine/src/sys/autoptr.h \
+ E:/Coding\ Projects/Trojan-Engine/src/sys/weakptr.h \
  E:/Coding\ Projects/Trojan-Engine/src/sys/vector.h \
  E:/Coding\ Projects/Trojan-Engine/src/sys/memory.h

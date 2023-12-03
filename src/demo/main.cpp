@@ -14,11 +14,14 @@ struct Player : Component
 		}
         getEntity()->getTransform()->setPosition(glm::vec3(0.0f, 0.0f, -10.0f));
         getEntity()->getTransform()->Rotate(glm::vec3(0.0f, 1.0f, 0.0f));
+
+
 	}
 
     void initialize()
     {
         getEntity()->addComponent<TriangleRenderer>();
+        std::shared_ptr<Texture> texture = getEntity()->getResources()->load<Texture>("texture.png");
     }
 
 private:
@@ -30,8 +33,6 @@ int main()
 {
 	SDL_SetMainReady();
 	std::shared_ptr<Core> core = Core::initialize();
-
-    //std::shared_ptr<Texture> texture = std::make_shared<Texture>("assets/image.jpg");
 
 	core->addEntity()->addComponent<Player>();
 	//core->addEntity()->addComponent<TriangleRenderer>();

@@ -13,6 +13,8 @@ namespace trojan_engine
 {
     struct Texture : Resource
     {
+        Texture() = default;
+
         void onLoad() override;
 
     private:

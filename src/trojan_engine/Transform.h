@@ -11,7 +11,8 @@
 #include "rend/glm/ext.hpp"
 
 
-namespace trojan_engine {
+namespace trojan_engine
+{
     struct Transform : Component
     {
         glm::vec3 position = glm::vec3(0.0f, 0.0f, 0.0f);

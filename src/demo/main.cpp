@@ -31,6 +31,8 @@ int main()
 	SDL_SetMainReady();
 	std::shared_ptr<Core> core = Core::initialize();
 
+    //std::shared_ptr<Texture> texture = std::make_shared<Texture>("assets/image.jpg");
+
 	core->addEntity()->addComponent<Player>();
 	//core->addEntity()->addComponent<TriangleRenderer>();
 	core->start();

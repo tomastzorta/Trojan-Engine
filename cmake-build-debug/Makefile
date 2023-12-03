@@ -562,6 +562,78 @@ src/trojan_engine/Entity.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Entity.cpp.s
 .PHONY : src/trojan_engine/Entity.cpp.s
 
+src/trojan_engine/Resource.obj: src/trojan_engine/Resource.cpp.obj
+.PHONY : src/trojan_engine/Resource.obj
+
+# target to build an object file
+src/trojan_engine/Resource.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Resource.cpp.obj
+.PHONY : src/trojan_engine/Resource.cpp.obj
+
+src/trojan_engine/Resource.i: src/trojan_engine/Resource.cpp.i
+.PHONY : src/trojan_engine/Resource.i
+
+# target to preprocess a source file
+src/trojan_engine/Resource.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Resource.cpp.i
+.PHONY : src/trojan_engine/Resource.cpp.i
+
+src/trojan_engine/Resource.s: src/trojan_engine/Resource.cpp.s
+.PHONY : src/trojan_engine/Resource.s
+
+# target to generate assembly for a file
+src/trojan_engine/Resource.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Resource.cpp.s
+.PHONY : src/trojan_engine/Resource.cpp.s
+
+src/trojan_engine/Resources.obj: src/trojan_engine/Resources.cpp.obj
+.PHONY : src/trojan_engine/Resources.obj
+
+# target to build an object file
+src/trojan_engine/Resources.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources.cpp.obj
+.PHONY : src/trojan_engine/Resources.cpp.obj
+
+src/trojan_engine/Resources.i: src/trojan_engine/Resources.cpp.i
+.PHONY : src/trojan_engine/Resources.i
+
+# target to preprocess a source file
+src/trojan_engine/Resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources.cpp.i
+.PHONY : src/trojan_engine/Resources.cpp.i
+
+src/trojan_engine/Resources.s: src/trojan_engine/Resources.cpp.s
+.PHONY : src/trojan_engine/Resources.s
+
+# target to generate assembly for a file
+src/trojan_engine/Resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources.cpp.s
+.PHONY : src/trojan_engine/Resources.cpp.s
+
+src/trojan_engine/Texture.obj: src/trojan_engine/Texture.cpp.obj
+.PHONY : src/trojan_engine/Texture.obj
+
+# target to build an object file
+src/trojan_engine/Texture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.obj
+.PHONY : src/trojan_engine/Texture.cpp.obj
+
+src/trojan_engine/Texture.i: src/trojan_engine/Texture.cpp.i
+.PHONY : src/trojan_engine/Texture.i
+
+# target to preprocess a source file
+src/trojan_engine/Texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.i
+.PHONY : src/trojan_engine/Texture.cpp.i
+
+src/trojan_engine/Texture.s: src/trojan_engine/Texture.cpp.s
+.PHONY : src/trojan_engine/Texture.s
+
+# target to generate assembly for a file
+src/trojan_engine/Texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.s
+.PHONY : src/trojan_engine/Texture.cpp.s
+
 src/trojan_engine/Transform.obj: src/trojan_engine/Transform.cpp.obj
 .PHONY : src/trojan_engine/Transform.obj
 
@@ -672,6 +744,15 @@ help:
 	@echo ... src/trojan_engine/Entity.obj
 	@echo ... src/trojan_engine/Entity.i
 	@echo ... src/trojan_engine/Entity.s
+	@echo ... src/trojan_engine/Resource.obj
+	@echo ... src/trojan_engine/Resource.i
+	@echo ... src/trojan_engine/Resource.s
+	@echo ... src/trojan_engine/Resources.obj
+	@echo ... src/trojan_engine/Resources.i
+	@echo ... src/trojan_engine/Resources.s
+	@echo ... src/trojan_engine/Texture.obj
+	@echo ... src/trojan_engine/Texture.i
+	@echo ... src/trojan_engine/Texture.s
 	@echo ... src/trojan_engine/Transform.obj
 	@echo ... src/trojan_engine/Transform.i
 	@echo ... src/trojan_engine/Transform.s

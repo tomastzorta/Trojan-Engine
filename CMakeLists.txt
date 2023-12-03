@@ -39,6 +39,12 @@ add_library (trojan_engine
 	src/trojan_engine/TriangleRenderer.h
         src/trojan_engine/Transform.h
         src/trojan_engine/Transform.cpp
+        src/trojan_engine/Resource.cpp
+        src/trojan_engine/Resource.h
+		src/trojan_engine/Texture.cpp
+		src/trojan_engine/Texture.h
+		src/trojan_engine/Resources.cpp
+		src/trojan_engine/Resources.h
 )
 target_link_libraries(trojan_engine rend SDL2)
 

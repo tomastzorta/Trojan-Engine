@@ -4,3 +4,4 @@
 #include "Entity.h"
 #include "TriangleRenderer.h"
 #include "Transform.h"
+#include "Texture.h"

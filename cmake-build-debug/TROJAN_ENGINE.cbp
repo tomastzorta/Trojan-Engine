@@ -284,6 +284,24 @@
 		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Entity.h">
 			<Option target="trojan_engine"/>
 		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Resource.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Resource.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Resources.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Resources.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Texture.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Texture.h">
+			<Option target="trojan_engine"/>
+		</Unit>
 		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Transform.cpp">
 			<Option target="trojan_engine"/>
 		</Unit>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\TrojanHorse\Documents\University\MY-GAME-ENGINE\src\rend\Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\TrojanHorse\Documents\University\MY-GAME-ENGINE\src\rend\Buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\TrojanHorse\Documents\University\MY-GAME-ENGINE\src\rend\Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\TrojanHorse\Documents\University\MY-GAME-ENGINE\src\rend\Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\TrojanHorse\Documents\University\MY-GAME-ENGINE\src\rend\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\TrojanHorse\Documents\University\MY-GAME-ENGINE\src\rend\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\TrojanHorse\Documents\University\MY-GAME-ENGINE\src\rend\ModelShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\TrojanHorse\Documents\University\MY-GAME-ENGINE\src\rend\RenderTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\TrojanHorse\Documents\University\MY-GAME-ENGINE\src\rend\RendMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\TrojanHorse\Documents\University\MY-GAME-ENGINE\src\rend\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\TrojanHorse\Documents\University\MY-GAME-ENGINE\src\rend\TextShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\TrojanHorse\Documents\University\MY-GAME-ENGINE\src\rend\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\TrojanHorse\Documents\University\MY-GAME-ENGINE\src\rend\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\TrojanHorse\Documents\University\MY-GAME-ENGINE\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{362259DF-AC8D-30DC-BC71-C92ECCEF56FF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

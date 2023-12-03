@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\TrojanHorse\Documents\University\MY-GAME-ENGINE\src\demo\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\TrojanHorse\Documents\University\MY-GAME-ENGINE\src\demo\player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\TrojanHorse\Documents\University\MY-GAME-ENGINE\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{EA41A7D9-F025-3EA7-B1D7-9730F6CB7496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{362259DF-AC8D-30DC-BC71-C92ECCEF56FF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

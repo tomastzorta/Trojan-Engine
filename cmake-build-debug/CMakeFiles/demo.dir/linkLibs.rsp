@@ -1,0 +1,1 @@
+  -L"E:/Coding Projects/Trojan-Engine/contrib/windows-cl-amd64/lib"  libtrojan_engine.a librend.a -lGLEW32 -lopengl32 -lSDL2 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

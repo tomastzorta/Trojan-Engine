@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TROJAN_ENGINE"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Coding Projects/Trojan-Engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rend">
+				<Option output="E:/Coding Projects/Trojan-Engine/cmake-build-debug/librend.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Coding Projects/Trojan-Engine/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Coding Projects/Trojan-Engine/src"/>
+					<Add directory="E:/Coding Projects/Trojan-Engine/contrib/windows-cl-amd64/include"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 rend"/>
+					<CompileFile command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rend/fast">
+				<Option output="E:/Coding Projects/Trojan-Engine/cmake-build-debug/librend.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Coding Projects/Trojan-Engine/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Coding Projects/Trojan-Engine/src"/>
+					<Add directory="E:/Coding Projects/Trojan-Engine/contrib/windows-cl-amd64/include"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 rend/fast"/>
+					<CompileFile command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trojan_engine">
+				<Option output="E:/Coding Projects/Trojan-Engine/cmake-build-debug/libtrojan_engine.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Coding Projects/Trojan-Engine/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Coding Projects/Trojan-Engine/src"/>
+					<Add directory="E:/Coding Projects/Trojan-Engine/contrib/windows-cl-amd64/include"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 trojan_engine"/>
+					<CompileFile command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trojan_engine/fast">
+				<Option output="E:/Coding Projects/Trojan-Engine/cmake-build-debug/libtrojan_engine.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Coding Projects/Trojan-Engine/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Coding Projects/Trojan-Engine/src"/>
+					<Add directory="E:/Coding Projects/Trojan-Engine/contrib/windows-cl-amd64/include"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 trojan_engine/fast"/>
+					<CompileFile command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo">
+				<Option output="E:/Coding Projects/Trojan-Engine/cmake-build-debug/demo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Coding Projects/Trojan-Engine/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Coding Projects/Trojan-Engine/src"/>
+					<Add directory="E:/Coding Projects/Trojan-Engine/contrib/windows-cl-amd64/include"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo"/>
+					<CompileFile command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo/fast">
+				<Option output="E:/Coding Projects/Trojan-Engine/cmake-build-debug/demo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Coding Projects/Trojan-Engine/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Coding Projects/Trojan-Engine/src"/>
+					<Add directory="E:/Coding Projects/Trojan-Engine/contrib/windows-cl-amd64/include"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo/fast"/>
+					<CompileFile command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Coding Projects/Trojan-Engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Coding Projects/Trojan-Engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Programming Software/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Coding Projects/Trojan-Engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/demo/main.cpp">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/demo/player.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/Animation.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/Animation.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/Buffer.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/Buffer.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/Debug.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/Debug.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/Font.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/Font.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/Mesh.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/Mesh.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/Model.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/Model.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/ModelShader.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/ModelShader.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/RendMath.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/RendMath.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/RenderTexture.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/RenderTexture.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/Shader.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/Shader.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/TextShader.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/TextShader.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/Texture.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/Texture.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/utils.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/utils.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Component.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Component.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Core.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Core.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Entity.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Entity.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Transform.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Transform.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/TriangleRenderer.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/TriangleRenderer.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/trojanEngine.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

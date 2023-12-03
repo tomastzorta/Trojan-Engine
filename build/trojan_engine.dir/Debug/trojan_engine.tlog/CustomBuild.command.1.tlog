@@ -1,0 +1,10 @@
+^C:\USERS\TROJANHORSE\DOCUMENTS\UNIVERSITY\MY-GAME-ENGINE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/TrojanHorse/Documents/University/MY-GAME-ENGINE -BC:/Users/TrojanHorse/Documents/University/MY-GAME-ENGINE/build --check-stamp-file C:/Users/TrojanHorse/Documents/University/MY-GAME-ENGINE/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

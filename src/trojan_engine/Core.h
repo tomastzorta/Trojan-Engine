@@ -21,7 +21,7 @@ namespace trojan_engine
 		bool m_running = true;
 		
 		std::vector<std::shared_ptr<Entity> > m_entities_;
-        std::weak_ptr<Resources> m_resource;
+        std::shared_ptr<Resources> m_resource;
 
 		std::weak_ptr<Core> m_self_;
 		SDL_Window* m_window_ = nullptr;

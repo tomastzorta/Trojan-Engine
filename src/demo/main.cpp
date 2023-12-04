@@ -9,6 +9,7 @@ int main()
 	std::shared_ptr<Core> core = Core::initialize();
 
 	core->addEntity()->addComponent<Player>();
+	core->getResources()->load<Texture>("trojan_engine/image.jpg");
 	core->start();
 
 	return 0;

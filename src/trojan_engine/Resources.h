@@ -8,6 +8,7 @@
 #include <string>
 #include <memory>
 #include <vector>
+#include "Resource.h"
 
 namespace trojan_engine
 {

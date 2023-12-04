@@ -4,7 +4,6 @@
 
 #include "Resource.h"
 #include "Core.h"
-#include "Resources.h"
 
 namespace trojan_engine
 {

@@ -25,6 +25,5 @@ namespace trojan_engine
     void Player::initialize()
     {
         getEntity()->addComponent<TriangleRenderer>();
-
     }
 }

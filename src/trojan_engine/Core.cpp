@@ -11,6 +11,7 @@ namespace trojan_engine
 	{
 		std::shared_ptr<Core> rtn = std::make_shared<Core>();
 
+		rtn->m_resource = std::make_shared<Resources>();
 		rtn->m_self_ = rtn;
 
 		if (SDL_Init(SDL_INIT_VIDEO) < 0)
@@ -90,6 +91,6 @@ namespace trojan_engine
 
     std::shared_ptr<Resources> Core::getResources()
     {
-        return m_resource.lock();
+        return m_resource;
     }
 }

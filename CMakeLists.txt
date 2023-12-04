@@ -51,8 +51,9 @@ add_library (trojan_engine
 target_link_libraries(trojan_engine rend SDL2)
 
 add_executable(demo
-  src/demo/player.h
-  src/demo/main.cpp
+		src/demo/main.cpp
+		src/demo/Player.cpp
+		src/demo/Player.h
 )
 
 # Add custom command to copy DLL files after building demo

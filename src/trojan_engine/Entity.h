@@ -2,13 +2,12 @@
 #include <vector>
 #include <iostream>
 #include <memory>
-#include "Transform.h" // Include the Transform component
 
 namespace trojan_engine
 {
     struct Core;
     struct Component;
-    struct Resources;
+    struct Transform;
 
     struct Entity
     {
@@ -29,8 +28,6 @@ namespace trojan_engine
 
         std::shared_ptr<Transform> getTransform();
 
-        std::shared_ptr<Resources> getResources();
-
         bool alive();
         void kill();
         std::shared_ptr<Core> getCore();
@@ -45,6 +42,5 @@ namespace trojan_engine
         std::weak_ptr<Core> m_core;
         std::weak_ptr<Entity> m_self;
         std::weak_ptr<Transform> m_transform;
-        std::shared_ptr<Resources> m_resources;
     };
 }

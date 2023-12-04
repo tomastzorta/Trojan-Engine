@@ -8,10 +8,12 @@
 #include <string>
 #include <memory>
 #include <vector>
-#include "Resource.h"
 
 namespace trojan_engine
 {
+    struct Core;
+    struct Resource;
+
     struct Resources
     {
         template <typename T>
@@ -22,7 +24,7 @@ namespace trojan_engine
             {
                 if(m_resources.at(i)->getPath() == _path)
                 {
-                    return std::dynamic_pointer_cast<T>(m_resources.at(i));
+                    return std::static_pointer_cast<T>(m_resources.at(i));
                 }
             }
 
@@ -36,6 +38,8 @@ namespace trojan_engine
         }
 
     private:
+        std::weak_ptr<Resources> m_self;
+        std::weak_ptr<Core> m_core;
         std::vector<std::shared_ptr<Resource> > m_resources;
     };
 }

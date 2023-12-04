@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "E:/Coding Projects/Trojan-Engine/src/demo/Player.cpp" "CMakeFiles/demo.dir/src/demo/Player.cpp.obj" "gcc" "CMakeFiles/demo.dir/src/demo/Player.cpp.obj.d"
   "E:/Coding Projects/Trojan-Engine/src/demo/main.cpp" "CMakeFiles/demo.dir/src/demo/main.cpp.obj" "gcc" "CMakeFiles/demo.dir/src/demo/main.cpp.obj.d"
   )
 

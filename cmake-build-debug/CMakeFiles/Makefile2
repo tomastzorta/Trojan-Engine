@@ -84,7 +84,7 @@ clean: CMakeFiles/demo.dir/clean
 CMakeFiles/rend.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rend.dir\build.make CMakeFiles/rend.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rend.dir\build.make CMakeFiles/rend.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target rend"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target rend"
 .PHONY : CMakeFiles/rend.dir/all
 
 # Build rule for subdir invocation for target.
@@ -110,7 +110,7 @@ CMakeFiles/rend.dir/clean:
 CMakeFiles/trojan_engine.dir/all: CMakeFiles/rend.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=17,18,19,20,21,22,23,24,25 "Built target trojan_engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=18,19,20,21,22,23,24,25,26 "Built target trojan_engine"
 .PHONY : CMakeFiles/trojan_engine.dir/all
 
 # Build rule for subdir invocation for target.
@@ -133,16 +133,16 @@ CMakeFiles/trojan_engine.dir/clean:
 # Target rules for target CMakeFiles/demo.dir
 
 # All Build rule for target.
-CMakeFiles/demo.dir/all: CMakeFiles/trojan_engine.dir/all
 CMakeFiles/demo.dir/all: CMakeFiles/rend.dir/all
+CMakeFiles/demo.dir/all: CMakeFiles/trojan_engine.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=1,2,3 "Built target demo"
 .PHONY : CMakeFiles/demo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" 25
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/demo.dir/rule

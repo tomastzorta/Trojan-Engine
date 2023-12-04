@@ -7,8 +7,7 @@
 
 #include "Component.h"
 
-#include "rend/glm/glm.hpp"
-#include "rend/glm/ext.hpp"
+#include "rend/rend.h"
 
 
 namespace trojan_engine

@@ -327,7 +327,11 @@ CMakeFiles/demo.dir/src/demo/main.cpp.obj: \
  E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_locale.h \
  E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_misc.h \
  E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Entity.h \
- E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Transform.h \
+ E:/Coding\ Projects/Trojan-Engine/src/demo/Player.h \
+ E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/TriangleRenderer.h \
+ E:/Coding\ Projects/Trojan-Engine/src/rend/rend.h \
+ E:/Coding\ Projects/Trojan-Engine/src/rend/Texture.h \
+ E:/Coding\ Projects/Trojan-Engine/src/rend/rendmath.h \
  E:/Coding\ Projects/Trojan-Engine/src/rend/glm/glm.hpp \
  E:/Coding\ Projects/Trojan-Engine/src/rend/glm/detail/_fixes.hpp \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
@@ -628,10 +632,6 @@ CMakeFiles/demo.dir/src/demo/main.cpp.obj: \
  E:/Coding\ Projects/Trojan-Engine/src/rend/glm/gtc/type_ptr.inl \
  E:/Coding\ Projects/Trojan-Engine/src/rend/glm/gtc/ulp.hpp \
  E:/Coding\ Projects/Trojan-Engine/src/rend/glm/gtc/ulp.inl \
- E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/TriangleRenderer.h \
- E:/Coding\ Projects/Trojan-Engine/src/rend/rend.h \
- E:/Coding\ Projects/Trojan-Engine/src/rend/Texture.h \
- E:/Coding\ Projects/Trojan-Engine/src/rend/rendmath.h \
  E:/Coding\ Projects/Trojan-Engine/src/rend/rendgl.h \
  E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/GL/glew.h \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/inttypes.h \
@@ -667,7 +667,7 @@ CMakeFiles/demo.dir/src/demo/main.cpp.obj: \
  E:/Coding\ Projects/Trojan-Engine/src/sys/exception.h \
  E:/Coding\ Projects/Trojan-Engine/src/sys/string.h \
  E:/Coding\ Projects/Trojan-Engine/src/sys/io.h \
+ E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Transform.h \
  E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Texture.h \
  E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resource.h \
- E:/Coding\ Projects/Trojan-Engine/src/rend/Texture.h \
  E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resources.h

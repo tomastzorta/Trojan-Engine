@@ -1,5 +1,6 @@
 #include "Core.h"
 #include "Entity.h"
+#include "Resources.h"
 #include <SDL2/SDL.h>
 #include <rend/rend.h>
 #include <stdexcept>
@@ -86,4 +87,9 @@ namespace trojan_engine
 
 		return rtn;
 	}
+
+    std::shared_ptr<Resources> Core::getResources()
+    {
+        return m_resource.lock();
+    }
 }

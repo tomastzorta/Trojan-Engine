@@ -6,6 +6,7 @@
 #define TROJAN_ENGINE_RESOURCE_H
 
 #include <string>
+#include <memory>
 
 namespace trojan_engine
 {
@@ -19,6 +20,7 @@ namespace trojan_engine
 
     private:
         std::string m_path;
+        std::weak_ptr<Resources> m_resources;
 
         void load();
     };

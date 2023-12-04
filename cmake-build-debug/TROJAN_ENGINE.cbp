@@ -182,10 +182,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/Coding Projects/Trojan-Engine/src/demo/main.cpp">
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/demo/Player.cpp">
 			<Option target="demo"/>
 		</Unit>
-		<Unit filename="E:/Coding Projects/Trojan-Engine/src/demo/player.h">
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/demo/Player.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/demo/main.cpp">
 			<Option target="demo"/>
 		</Unit>
 		<Unit filename="E:/Coding Projects/Trojan-Engine/src/rend/Animation.cpp">

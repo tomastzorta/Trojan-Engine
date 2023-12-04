@@ -154,6 +154,30 @@ demo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/build
 .PHONY : demo/fast
 
+src/demo/Player.obj: src/demo/Player.cpp.obj
+.PHONY : src/demo/Player.obj
+
+# target to build an object file
+src/demo/Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/src/demo/Player.cpp.obj
+.PHONY : src/demo/Player.cpp.obj
+
+src/demo/Player.i: src/demo/Player.cpp.i
+.PHONY : src/demo/Player.i
+
+# target to preprocess a source file
+src/demo/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/src/demo/Player.cpp.i
+.PHONY : src/demo/Player.cpp.i
+
+src/demo/Player.s: src/demo/Player.cpp.s
+.PHONY : src/demo/Player.s
+
+# target to generate assembly for a file
+src/demo/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/src/demo/Player.cpp.s
+.PHONY : src/demo/Player.cpp.s
+
 src/demo/main.obj: src/demo/main.cpp.obj
 .PHONY : src/demo/main.obj
 
@@ -693,6 +717,9 @@ help:
 	@echo ... demo
 	@echo ... rend
 	@echo ... trojan_engine
+	@echo ... src/demo/Player.obj
+	@echo ... src/demo/Player.i
+	@echo ... src/demo/Player.s
 	@echo ... src/demo/main.obj
 	@echo ... src/demo/main.i
 	@echo ... src/demo/main.s

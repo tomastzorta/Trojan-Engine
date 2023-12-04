@@ -140,6 +140,7 @@ CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.obj: \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
  E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
+ E:/Coding\ Projects/Trojan-Engine/src/rend/rend.h \
  E:/Coding\ Projects/Trojan-Engine/src/rend/Texture.h \
  E:/Coding\ Projects/Trojan-Engine/src/rend/rendmath.h \
  E:/Coding\ Projects/Trojan-Engine/src/rend/glm/glm.hpp \
@@ -460,4 +461,178 @@ CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.obj: \
  E:/Coding\ Projects/Trojan-Engine/src/sys/autoptr.h \
  E:/Coding\ Projects/Trojan-Engine/src/sys/weakptr.h \
  E:/Coding\ Projects/Trojan-Engine/src/sys/vector.h \
- E:/Coding\ Projects/Trojan-Engine/src/sys/memory.h
+ E:/Coding\ Projects/Trojan-Engine/src/sys/memory.h \
+ E:/Coding\ Projects/Trojan-Engine/src/rend/Font.h \
+ E:/Coding\ Projects/Trojan-Engine/src/rend/Buffer.h \
+ E:/Coding\ Projects/Trojan-Engine/src/rend/Mesh.h \
+ E:/Coding\ Projects/Trojan-Engine/src/rend/Model.h \
+ E:/Coding\ Projects/Trojan-Engine/src/sys/linkedlist.h \
+ E:/Coding\ Projects/Trojan-Engine/src/rend/Animation.h \
+ E:/Coding\ Projects/Trojan-Engine/src/rend/Shader.h \
+ E:/Coding\ Projects/Trojan-Engine/src/rend/ModelShader.h \
+ E:/Coding\ Projects/Trojan-Engine/src/rend/TextShader.h \
+ E:/Coding\ Projects/Trojan-Engine/src/rend/RenderTexture.h \
+ E:/Coding\ Projects/Trojan-Engine/src/rend/Debug.h \
+ E:/Coding\ Projects/Trojan-Engine/src/rend/rendsdl.h \
+ E:/Coding\ Projects/Trojan-Engine/src/rend/Exception.h \
+ E:/Coding\ Projects/Trojan-Engine/src/sys/exception.h \
+ E:/Coding\ Projects/Trojan-Engine/src/sys/string.h \
+ E:/Coding\ Projects/Trojan-Engine/src/sys/io.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_main.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_stdinc.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_config.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_platform.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/begin_code.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/close_code.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/winsdkver.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/winapifamily.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/stdarg.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_assert.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_atomic.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_audio.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_error.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_endian.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_mutex.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_thread.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_rwops.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_clipboard.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_cpuinfo.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/intrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/setjmp.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/x86intrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/x86gprintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/ia32intrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/adxintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/bmiintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/bmi2intrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cetintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cldemoteintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/clflushoptintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/clwbintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/clzerointrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cmpccxaddintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/enqcmdintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/fxsrintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/lzcntintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/lwpintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/movdirintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mwaitintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mwaitxintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pconfigintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/popcntintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pkuintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/prfchiintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/raointintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/rdseedintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/rtmintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/serializeintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/sgxintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/tbmintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/tsxldtrkintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/uintrintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/waitpkgintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/wbnoinvdintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsaveintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsavecintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsaveoptintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsavesintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xtestintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/hresetintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/immintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mmintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/emmintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pmmintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/tmmintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/smmintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/wmmintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxvnniintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxifmaintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxvnniint8intrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx2intrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512erintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512pfintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512cdintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vlintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bwintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512dqintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vlbwintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vldqintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512ifmaintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512ifmavlintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmiintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmivlintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx5124fmapsintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx5124vnniwintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vpopcntdqintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmi2intrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmi2vlintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vnniintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vnnivlintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vpopcntdqvlintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bitalgintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vp2intersectintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vp2intersectvlintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fp16intrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fp16vlintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/shaintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/fmaintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/f16cintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/gfniintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/vaesintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/vpclmulqdqintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bf16vlintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bf16intrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxneconvertintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxtileintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxint8intrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxbf16intrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxcomplexintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/prfchwintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/keylockerintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxfp16intrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm3dnow.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/fma4intrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/ammintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xopintrin.h \
+ E:/Programming\ Software/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cpuid.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_events.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_video.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_pixels.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_rect.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_surface.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_blendmode.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_keyboard.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_keycode.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_scancode.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_mouse.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_joystick.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_guid.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_gamecontroller.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_sensor.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_quit.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_gesture.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_touch.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_filesystem.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_haptic.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_hidapi.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_hints.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_loadso.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_log.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_messagebox.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_metal.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_power.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_render.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_shape.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_system.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_timer.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_version.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_locale.h \
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_misc.h

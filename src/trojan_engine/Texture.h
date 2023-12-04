@@ -7,15 +7,14 @@
 
 #include <memory>
 #include "Resource.h"
-#include "rend/Texture.h"
+#include "rend/rend.h"
 
 namespace trojan_engine
 {
     struct Texture : Resource
     {
-        Texture() = default;
-
         void onLoad() override;
+        void onCreate(int _width, int _height);
 
     private:
         std::shared_ptr<rend::Texture> m_texture;

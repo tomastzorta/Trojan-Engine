@@ -1,7 +1,7 @@
 #include "Entity.h"
 #include "Component.h"
 #include "Core.h"
-#include "Resources.h"
+#include "Transform.h"
 #include <iostream>
 
 namespace trojan_engine
@@ -53,10 +53,5 @@ namespace trojan_engine
     std::shared_ptr<Transform> Entity::getTransform() // Add a getter for the Transform component
     {
         return m_transform.lock();
-    }
-
-    std::shared_ptr<Resources> Entity::getResources()
-    {
-        return m_resources;
     }
 }

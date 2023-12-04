@@ -6,6 +6,7 @@
 namespace trojan_engine
 {
 	struct Entity;
+    struct Resources;
 
 	struct Core
 	{
@@ -13,11 +14,15 @@ namespace trojan_engine
 		void start();
 		void stop();
 		std::shared_ptr<Entity> addEntity();
+        std::shared_ptr<Resources> getResources();
+
 
 	private:
 		bool m_running = true;
 		
 		std::vector<std::shared_ptr<Entity> > m_entities_;
+        std::weak_ptr<Resources> m_resource;
+
 		std::weak_ptr<Core> m_self_;
 		SDL_Window* m_window_ = nullptr;
 		SDL_GLContext m_context_ = nullptr;

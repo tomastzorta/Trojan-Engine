@@ -83,21 +83,38 @@ CMakeFiles/demo.dir/src/demo/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo.dir/src/demo/main.cpp.s"
 	"E:\Programming Software\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Coding Projects\Trojan-Engine\src\demo\main.cpp" -o CMakeFiles\demo.dir\src\demo\main.cpp.s
 
+CMakeFiles/demo.dir/src/demo/Player.cpp.obj: CMakeFiles/demo.dir/flags.make
+CMakeFiles/demo.dir/src/demo/Player.cpp.obj: CMakeFiles/demo.dir/includes_CXX.rsp
+CMakeFiles/demo.dir/src/demo/Player.cpp.obj: E:/Coding\ Projects/Trojan-Engine/src/demo/Player.cpp
+CMakeFiles/demo.dir/src/demo/Player.cpp.obj: CMakeFiles/demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/demo.dir/src/demo/Player.cpp.obj"
+	"E:\Programming Software\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/src/demo/Player.cpp.obj -MF CMakeFiles\demo.dir\src\demo\Player.cpp.obj.d -o CMakeFiles\demo.dir\src\demo\Player.cpp.obj -c "E:\Coding Projects\Trojan-Engine\src\demo\Player.cpp"
+
+CMakeFiles/demo.dir/src/demo/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo.dir/src/demo/Player.cpp.i"
+	"E:\Programming Software\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Coding Projects\Trojan-Engine\src\demo\Player.cpp" > CMakeFiles\demo.dir\src\demo\Player.cpp.i
+
+CMakeFiles/demo.dir/src/demo/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo.dir/src/demo/Player.cpp.s"
+	"E:\Programming Software\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Coding Projects\Trojan-Engine\src\demo\Player.cpp" -o CMakeFiles\demo.dir\src\demo\Player.cpp.s
+
 # Object files for target demo
 demo_OBJECTS = \
-"CMakeFiles/demo.dir/src/demo/main.cpp.obj"
+"CMakeFiles/demo.dir/src/demo/main.cpp.obj" \
+"CMakeFiles/demo.dir/src/demo/Player.cpp.obj"
 
 # External object files for target demo
 demo_EXTERNAL_OBJECTS =
 
 demo.exe: CMakeFiles/demo.dir/src/demo/main.cpp.obj
+demo.exe: CMakeFiles/demo.dir/src/demo/Player.cpp.obj
 demo.exe: CMakeFiles/demo.dir/build.make
 demo.exe: libtrojan_engine.a
 demo.exe: librend.a
 demo.exe: CMakeFiles/demo.dir/linkLibs.rsp
 demo.exe: CMakeFiles/demo.dir/objects1.rsp
 demo.exe: CMakeFiles/demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable demo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable demo.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\demo.dir\link.txt --verbose=$(VERBOSE)
 	"E:\Programming Software\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E copy_directory "E:/Coding Projects/Trojan-Engine/contrib/windows-cl-amd64/bin" "E:/Coding Projects/Trojan-Engine/cmake-build-debug"
 

@@ -7,6 +7,7 @@
 
 namespace trojan_engine
 {
+    struct Keyboard;
 
     struct Player : Component
     {

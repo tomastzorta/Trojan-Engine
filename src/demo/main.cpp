@@ -9,8 +9,12 @@ int main()
 	const std::shared_ptr<Core> core = Core::initialize();
 
 	core->addEntity()->addComponent<Player>();
-	core->getResources()->load<Texture>("trojan_engine/image.jpg");
+	auto texture = core->getResources()->load<Texture>("trojan_engine/image.jpg");
 
+	if (!texture) {
+		std::cerr << "Failed to load texture" << std::endl;
+		return -1;
+	}
 
 	core->start();
 	return 0;

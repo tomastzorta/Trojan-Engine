@@ -679,4 +679,11 @@ CMakeFiles/demo.dir/src/demo/Player.cpp.obj: \
  H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Texture.h \
  H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Resource.h \
  H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Resources.h \
+ H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Keyboard.h \
+ C:/Users/s5216712/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
+ C:/Users/s5216712/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
+ C:/Users/s5216712/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h \
+ C:/Users/s5216712/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h \
+ C:/Users/s5216712/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
+ C:/Users/s5216712/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
  H:\WORKSPACE\Trojan-Engine\src\demo\Player.h

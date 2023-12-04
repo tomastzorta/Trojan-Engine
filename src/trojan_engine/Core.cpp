@@ -1,6 +1,7 @@
 #include "Core.h"
 #include "Entity.h"
 #include "Resources.h"
+#include "Keyboard.h"
 #include <SDL2/SDL.h>
 #include <rend/rend.h>
 #include <stdexcept>
@@ -10,9 +11,12 @@ namespace trojan_engine
 	std::shared_ptr<Core> Core::initialize()
 	{
 		std::shared_ptr<Core> rtn = std::make_shared<Core>();
+		rtn->m_self_ = rtn;
 
 		rtn->m_resource = std::make_shared<Resources>();
-		rtn->m_self_ = rtn;
+		rtn->m_keyboard = std::make_shared<Keyboard>();
+
+		std::cout << "Core initialized with address: " << rtn.get() << std::endl;
 
 		if (SDL_Init(SDL_INIT_VIDEO) < 0)
 		{
@@ -47,6 +51,13 @@ namespace trojan_engine
 				{
 					m_running = false;
 				}
+				else if (event.type == SDL_KEYDOWN || event.type == SDL_KEYUP)
+				{
+					Event keyboardEvent;
+					keyboardEvent.key = event.key.keysym.sym;
+					keyboardEvent.type = event.type == SDL_KEYDOWN ? Event::KEY_PRESSED : Event::KEY_RELEASED;
+					m_keyboard->handleEvent(keyboardEvent);
+				}
 			}
 			for (size_t ei = 0; ei < m_entities_.size(); ei++)
 			{
@@ -68,6 +79,9 @@ namespace trojan_engine
 				m_entities_[ei]->display();
 			}
 			SDL_GL_SwapWindow(m_window_);
+
+			//clear all pressed and released keys
+			m_keyboard->onTick();
 		}
 			
 	}
@@ -80,12 +94,12 @@ namespace trojan_engine
 	std::shared_ptr<Entity> Core::addEntity()
 	{
 		std::shared_ptr<Entity> rtn = std::make_shared<Entity>();
-
 		rtn->m_core = m_self_;
 		rtn->m_self = rtn;
 
 		m_entities_.push_back(rtn);
 
+		std::cout << "Entity added with Core reference: " << (rtn->m_core.lock() ? "Valid" : "Null") << std::endl;
 		return rtn;
 	}
 
@@ -93,4 +107,9 @@ namespace trojan_engine
     {
         return m_resource;
     }
+
+	std::shared_ptr<Keyboard> Core::getKeyboard()
+	{
+		return m_keyboard;
+	}
 }

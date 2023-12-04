@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TROJAN_ENGINE"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rend">
+				<Option output="H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/librend.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="H:/WORKSPACE/Trojan-Engine/src"/>
+					<Add directory="H:/WORKSPACE/Trojan-Engine/contrib/windows-cl-amd64/include"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rend"/>
+					<CompileFile command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rend/fast">
+				<Option output="H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/librend.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="H:/WORKSPACE/Trojan-Engine/src"/>
+					<Add directory="H:/WORKSPACE/Trojan-Engine/contrib/windows-cl-amd64/include"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rend/fast"/>
+					<CompileFile command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trojan_engine">
+				<Option output="H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/libtrojan_engine.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="H:/WORKSPACE/Trojan-Engine/src"/>
+					<Add directory="H:/WORKSPACE/Trojan-Engine/contrib/windows-cl-amd64/include"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 trojan_engine"/>
+					<CompileFile command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trojan_engine/fast">
+				<Option output="H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/libtrojan_engine.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="H:/WORKSPACE/Trojan-Engine/src"/>
+					<Add directory="H:/WORKSPACE/Trojan-Engine/contrib/windows-cl-amd64/include"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 trojan_engine/fast"/>
+					<CompileFile command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo">
+				<Option output="H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/demo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="H:/WORKSPACE/Trojan-Engine/src"/>
+					<Add directory="H:/WORKSPACE/Trojan-Engine/contrib/windows-cl-amd64/include"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 demo"/>
+					<CompileFile command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo/fast">
+				<Option output="H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/demo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="H:/WORKSPACE/Trojan-Engine/src"/>
+					<Add directory="H:/WORKSPACE/Trojan-Engine/contrib/windows-cl-amd64/include"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 demo/fast"/>
+					<CompileFile command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/s5216712/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f &quot;H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/demo/Player.cpp">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/demo/Player.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/demo/main.cpp">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/Animation.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/Animation.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/Buffer.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/Buffer.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/Debug.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/Debug.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/Font.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/Font.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/Mesh.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/Mesh.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/Model.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/Model.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/ModelShader.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/ModelShader.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/RendMath.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/RendMath.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/RenderTexture.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/RenderTexture.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/Shader.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/Shader.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/TextShader.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/TextShader.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/Texture.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/Texture.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/utils.cpp">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/rend/utils.h">
+			<Option target="rend"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Component.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Component.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Core.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Core.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Entity.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Entity.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Keyboard.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Keyboard.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Resource.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Resource.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Resources.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Resources.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Texture.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Texture.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Transform.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/Transform.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/TriangleRenderer.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/TriangleRenderer.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/image.jpg">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/src/trojan_engine/trojanEngine.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="H:/WORKSPACE/Trojan-Engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

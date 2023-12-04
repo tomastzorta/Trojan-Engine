@@ -6,11 +6,12 @@ using namespace trojan_engine;
 int main()
 {
 	SDL_SetMainReady();
-	std::shared_ptr<Core> core = Core::initialize();
+	const std::shared_ptr<Core> core = Core::initialize();
 
 	core->addEntity()->addComponent<Player>();
 	core->getResources()->load<Texture>("trojan_engine/image.jpg");
-	core->start();
 
+
+	core->start();
 	return 0;
 }

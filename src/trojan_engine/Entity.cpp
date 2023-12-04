@@ -2,13 +2,16 @@
 #include "Component.h"
 #include "Core.h"
 #include "Transform.h"
+#include "demo/Player.h"
 #include <iostream>
 
 namespace trojan_engine
 {
     Entity::Entity()
     {
+
         m_transform = addComponent<Transform>(); // Add a Transform component upon creation
+        std::cout << "Entity constructed with self-reference set to: " << m_self.lock().get() << std::endl;
     }
 
     void trojan_engine::Entity::kill()

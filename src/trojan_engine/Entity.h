@@ -8,6 +8,7 @@ namespace trojan_engine
     struct Core;
     struct Component;
     struct Transform;
+    struct Player;
 
     struct Entity
     {

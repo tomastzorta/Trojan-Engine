@@ -7,8 +7,6 @@
 
 namespace trojan_engine
 {
-    struct TriangleRenderer;
-    struct Entity;
 
     struct Player : Component
     {

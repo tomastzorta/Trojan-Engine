@@ -1,6 +1,6 @@
 #include "Component.h"
 #include "Core.h"
-#include "Transform.h"
+#include "Components/Transform.h"
 
 namespace trojan_engine
 {

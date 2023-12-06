@@ -3,8 +3,8 @@
 #include "Core.h"
 #include "Entity.h"
 #include "demo/Player.h"
-#include "TriangleRenderer.h"
-#include "Transform.h"
-#include "Texture.h"
+#include "Components/TriangleRenderer.h"
+#include "Components/Transform.h"
+#include "Resources/Texture.h"
 #include "Resources.h"
 

@@ -1,6 +1,6 @@
 ﻿#include "TriangleRenderer.h"
 #include "Transform.h"
-#include "Entity.h"
+#include "trojan_engine/Entity.h"
 
 namespace trojan_engine
 {

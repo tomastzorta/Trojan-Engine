@@ -1339,6 +1339,18 @@
 		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Component.h">
 			<Option target="trojan_engine"/>
 		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Components/Transform.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Components/Transform.h">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Components/TriangleRenderer.cpp">
+			<Option target="trojan_engine"/>
+		</Unit>
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Components/TriangleRenderer.h">
+			<Option target="trojan_engine"/>
+		</Unit>
 		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Core.cpp">
 			<Option target="trojan_engine"/>
 		</Unit>
@@ -1357,12 +1369,6 @@
 		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Keyboard.h">
 			<Option target="trojan_engine"/>
 		</Unit>
-		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Model.cpp">
-			<Option target="trojan_engine"/>
-		</Unit>
-		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Model.h">
-			<Option target="trojan_engine"/>
-		</Unit>
 		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Resource.cpp">
 			<Option target="trojan_engine"/>
 		</Unit>
@@ -1375,28 +1381,22 @@
 		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Resources.h">
 			<Option target="trojan_engine"/>
 		</Unit>
-		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Shader.cpp">
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Resources/Model.cpp">
 			<Option target="trojan_engine"/>
 		</Unit>
-		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Shader.h">
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Resources/Model.h">
 			<Option target="trojan_engine"/>
 		</Unit>
-		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Texture.cpp">
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Resources/Shader.cpp">
 			<Option target="trojan_engine"/>
 		</Unit>
-		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Texture.h">
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Resources/Shader.h">
 			<Option target="trojan_engine"/>
 		</Unit>
-		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Transform.cpp">
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Resources/Texture.cpp">
 			<Option target="trojan_engine"/>
 		</Unit>
-		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Transform.h">
-			<Option target="trojan_engine"/>
-		</Unit>
-		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/TriangleRenderer.cpp">
-			<Option target="trojan_engine"/>
-		</Unit>
-		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/TriangleRenderer.h">
+		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/Resources/Texture.h">
 			<Option target="trojan_engine"/>
 		</Unit>
 		<Unit filename="E:/Coding Projects/Trojan-Engine/src/trojan_engine/image.jpg">

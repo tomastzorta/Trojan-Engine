@@ -1,6 +1,7 @@
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Component.cpp.obj: \
- E:\Coding\ Projects\Trojan-Engine\src\trojan_engine\Component.cpp \
- E:\Coding\ Projects\Trojan-Engine\src\trojan_engine\Component.h \
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/Transform.cpp.obj: \
+ E:\Coding\ Projects\Trojan-Engine\src\trojan_engine\Components\Transform.cpp \
+ E:\Coding\ Projects\Trojan-Engine\src\trojan_engine\Components\Transform.h \
+ E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Component.h \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -657,11 +658,4 @@ CMakeFiles/trojan_engine.dir/src/trojan_engine/Component.cpp.obj: \
  E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_timer.h \
  E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_version.h \
  E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_locale.h \
- E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_misc.h \
- E:\Coding\ Projects\Trojan-Engine\src\trojan_engine\Core.h \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
- E:\Coding\ Projects\Trojan-Engine\src\trojan_engine\Components/Transform.h \
- E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Component.h
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_misc.h

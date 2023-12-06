@@ -6,7 +6,7 @@
 #define TROJAN_ENGINE_TEXTURE_H
 
 #include <memory>
-#include "Resource.h"
+#include "trojan_engine/Resources.h"
 
 namespace trojan_engine
 {

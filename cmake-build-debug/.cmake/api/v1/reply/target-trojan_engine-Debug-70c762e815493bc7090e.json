@@ -89,11 +89,11 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "pellet::@6890427a1f51a3e7e1df"
+			"id" : "rend::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "rend::@6890427a1f51a3e7e1df"
+			"id" : "pellet::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "trojan_engine::@6890427a1f51a3e7e1df",
@@ -192,23 +192,23 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/trojan_engine/TriangleRenderer.cpp",
+			"path" : "src/trojan_engine/Components/TriangleRenderer.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/trojan_engine/TriangleRenderer.h",
+			"path" : "src/trojan_engine/Components/TriangleRenderer.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/trojan_engine/Transform.h",
+			"path" : "src/trojan_engine/Components/Transform.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/trojan_engine/Transform.cpp",
+			"path" : "src/trojan_engine/Components/Transform.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -225,12 +225,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/trojan_engine/Texture.cpp",
+			"path" : "src/trojan_engine/Resources/Texture.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/trojan_engine/Texture.h",
+			"path" : "src/trojan_engine/Resources/Texture.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -263,23 +263,23 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/trojan_engine/Model.cpp",
+			"path" : "src/trojan_engine/Resources/Model.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/trojan_engine/Model.h",
+			"path" : "src/trojan_engine/Resources/Model.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/trojan_engine/Shader.cpp",
+			"path" : "src/trojan_engine/Resources/Shader.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/trojan_engine/Shader.h",
+			"path" : "src/trojan_engine/Resources/Shader.h",
 			"sourceGroupIndex" : 1
 		}
 	],

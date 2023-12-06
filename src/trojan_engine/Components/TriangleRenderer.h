@@ -1,6 +1,5 @@
 ﻿#pragma once
-#include "Component.h"
-#include <rend/rend.h>
+#include "trojan_engine/Component.h"
 
 namespace trojan_engine
 {

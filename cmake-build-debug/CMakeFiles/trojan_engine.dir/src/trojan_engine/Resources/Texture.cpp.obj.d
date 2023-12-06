@@ -1,6 +1,6 @@
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Component.cpp.obj: \
- E:\Coding\ Projects\Trojan-Engine\src\trojan_engine\Component.cpp \
- E:\Coding\ Projects\Trojan-Engine\src\trojan_engine\Component.h \
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Texture.cpp.obj: \
+ E:\Coding\ Projects\Trojan-Engine\src\trojan_engine\Resources\Texture.cpp \
+ E:\Coding\ Projects\Trojan-Engine\src\trojan_engine\Resources\Texture.h \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -107,9 +107,8 @@ CMakeFiles/trojan_engine.dir/src/trojan_engine/Component.cpp.obj: \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
+ E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resources.h \
+ E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
@@ -119,9 +118,6 @@ CMakeFiles/trojan_engine.dir/src/trojan_engine/Component.cpp.obj: \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
@@ -144,24 +140,11 @@ CMakeFiles/trojan_engine.dir/src/trojan_engine/Component.cpp.obj: \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
  E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/system_error \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/streambuf \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf.tcc \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf_iterator.h \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+ E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
+ E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
+ E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
+ E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
+ E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resource.h \
  E:/Coding\ Projects/Trojan-Engine/src/rend/rend.h \
  E:/Coding\ Projects/Trojan-Engine/src/rend/Texture.h \
  E:/Coding\ Projects/Trojan-Engine/src/rend/rendmath.h \
@@ -657,11 +640,4 @@ CMakeFiles/trojan_engine.dir/src/trojan_engine/Component.cpp.obj: \
  E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_timer.h \
  E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_version.h \
  E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_locale.h \
- E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_misc.h \
- E:\Coding\ Projects\Trojan-Engine\src\trojan_engine\Core.h \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
- E:/Programming\ Software/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
- E:\Coding\ Projects\Trojan-Engine\src\trojan_engine\Components/Transform.h \
- E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Component.h
+ E:/Coding\ Projects/Trojan-Engine/contrib/windows-cl-amd64/include/SDL2/SDL_misc.h

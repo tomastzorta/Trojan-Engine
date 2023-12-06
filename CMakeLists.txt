@@ -208,24 +208,24 @@ add_library (trojan_engine
 	src/trojan_engine/Component.cpp
 	src/trojan_engine/Component.h 
 	src/trojan_engine/trojanEngine.h
-	src/trojan_engine/TriangleRenderer.cpp
-	src/trojan_engine/TriangleRenderer.h
-		src/trojan_engine/Transform.h
-        src/trojan_engine/Transform.cpp
+		src/trojan_engine/Components/TriangleRenderer.cpp
+		src/trojan_engine/Components/TriangleRenderer.h
+		src/trojan_engine/Components/Transform.h
+		src/trojan_engine/Components/Transform.cpp
         src/trojan_engine/Resource.cpp
         src/trojan_engine/Resource.h
-		src/trojan_engine/Texture.cpp
-		src/trojan_engine/Texture.h
+		src/trojan_engine/Resources/Texture.cpp
+		src/trojan_engine/Resources/Texture.h
 		src/trojan_engine/Resources.cpp
 		src/trojan_engine/Resources.h
 		src/trojan_engine/image.jpg
 		src/trojan_engine/Keyboard.cpp
 		src/trojan_engine/Keyboard.h
 		src/trojan_engine/Keyboard.h
-		src/trojan_engine/Model.cpp
-		src/trojan_engine/Model.h
-		src/trojan_engine/Shader.cpp
-		src/trojan_engine/Shader.h
+		src/trojan_engine/Resources/Model.cpp
+		src/trojan_engine/Resources/Model.h
+		src/trojan_engine/Resources/Shader.cpp
+		src/trojan_engine/Resources/Shader.h
 
 )
 target_link_libraries(trojan_engine rend SDL2 pellet)

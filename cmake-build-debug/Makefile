@@ -4583,6 +4583,54 @@ src/trojan_engine/Component.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Component.cpp.s
 .PHONY : src/trojan_engine/Component.cpp.s
 
+src/trojan_engine/Components/Transform.obj: src/trojan_engine/Components/Transform.cpp.obj
+.PHONY : src/trojan_engine/Components/Transform.obj
+
+# target to build an object file
+src/trojan_engine/Components/Transform.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/Transform.cpp.obj
+.PHONY : src/trojan_engine/Components/Transform.cpp.obj
+
+src/trojan_engine/Components/Transform.i: src/trojan_engine/Components/Transform.cpp.i
+.PHONY : src/trojan_engine/Components/Transform.i
+
+# target to preprocess a source file
+src/trojan_engine/Components/Transform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/Transform.cpp.i
+.PHONY : src/trojan_engine/Components/Transform.cpp.i
+
+src/trojan_engine/Components/Transform.s: src/trojan_engine/Components/Transform.cpp.s
+.PHONY : src/trojan_engine/Components/Transform.s
+
+# target to generate assembly for a file
+src/trojan_engine/Components/Transform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/Transform.cpp.s
+.PHONY : src/trojan_engine/Components/Transform.cpp.s
+
+src/trojan_engine/Components/TriangleRenderer.obj: src/trojan_engine/Components/TriangleRenderer.cpp.obj
+.PHONY : src/trojan_engine/Components/TriangleRenderer.obj
+
+# target to build an object file
+src/trojan_engine/Components/TriangleRenderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/TriangleRenderer.cpp.obj
+.PHONY : src/trojan_engine/Components/TriangleRenderer.cpp.obj
+
+src/trojan_engine/Components/TriangleRenderer.i: src/trojan_engine/Components/TriangleRenderer.cpp.i
+.PHONY : src/trojan_engine/Components/TriangleRenderer.i
+
+# target to preprocess a source file
+src/trojan_engine/Components/TriangleRenderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/TriangleRenderer.cpp.i
+.PHONY : src/trojan_engine/Components/TriangleRenderer.cpp.i
+
+src/trojan_engine/Components/TriangleRenderer.s: src/trojan_engine/Components/TriangleRenderer.cpp.s
+.PHONY : src/trojan_engine/Components/TriangleRenderer.s
+
+# target to generate assembly for a file
+src/trojan_engine/Components/TriangleRenderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/TriangleRenderer.cpp.s
+.PHONY : src/trojan_engine/Components/TriangleRenderer.cpp.s
+
 src/trojan_engine/Core.obj: src/trojan_engine/Core.cpp.obj
 .PHONY : src/trojan_engine/Core.obj
 
@@ -4655,30 +4703,6 @@ src/trojan_engine/Keyboard.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Keyboard.cpp.s
 .PHONY : src/trojan_engine/Keyboard.cpp.s
 
-src/trojan_engine/Model.obj: src/trojan_engine/Model.cpp.obj
-.PHONY : src/trojan_engine/Model.obj
-
-# target to build an object file
-src/trojan_engine/Model.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Model.cpp.obj
-.PHONY : src/trojan_engine/Model.cpp.obj
-
-src/trojan_engine/Model.i: src/trojan_engine/Model.cpp.i
-.PHONY : src/trojan_engine/Model.i
-
-# target to preprocess a source file
-src/trojan_engine/Model.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Model.cpp.i
-.PHONY : src/trojan_engine/Model.cpp.i
-
-src/trojan_engine/Model.s: src/trojan_engine/Model.cpp.s
-.PHONY : src/trojan_engine/Model.s
-
-# target to generate assembly for a file
-src/trojan_engine/Model.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Model.cpp.s
-.PHONY : src/trojan_engine/Model.cpp.s
-
 src/trojan_engine/Resource.obj: src/trojan_engine/Resource.cpp.obj
 .PHONY : src/trojan_engine/Resource.obj
 
@@ -4727,101 +4751,77 @@ src/trojan_engine/Resources.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources.cpp.s
 .PHONY : src/trojan_engine/Resources.cpp.s
 
-src/trojan_engine/Shader.obj: src/trojan_engine/Shader.cpp.obj
-.PHONY : src/trojan_engine/Shader.obj
+src/trojan_engine/Resources/Model.obj: src/trojan_engine/Resources/Model.cpp.obj
+.PHONY : src/trojan_engine/Resources/Model.obj
 
 # target to build an object file
-src/trojan_engine/Shader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Shader.cpp.obj
-.PHONY : src/trojan_engine/Shader.cpp.obj
+src/trojan_engine/Resources/Model.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Model.cpp.obj
+.PHONY : src/trojan_engine/Resources/Model.cpp.obj
 
-src/trojan_engine/Shader.i: src/trojan_engine/Shader.cpp.i
-.PHONY : src/trojan_engine/Shader.i
+src/trojan_engine/Resources/Model.i: src/trojan_engine/Resources/Model.cpp.i
+.PHONY : src/trojan_engine/Resources/Model.i
 
 # target to preprocess a source file
-src/trojan_engine/Shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Shader.cpp.i
-.PHONY : src/trojan_engine/Shader.cpp.i
+src/trojan_engine/Resources/Model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Model.cpp.i
+.PHONY : src/trojan_engine/Resources/Model.cpp.i
 
-src/trojan_engine/Shader.s: src/trojan_engine/Shader.cpp.s
-.PHONY : src/trojan_engine/Shader.s
+src/trojan_engine/Resources/Model.s: src/trojan_engine/Resources/Model.cpp.s
+.PHONY : src/trojan_engine/Resources/Model.s
 
 # target to generate assembly for a file
-src/trojan_engine/Shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Shader.cpp.s
-.PHONY : src/trojan_engine/Shader.cpp.s
+src/trojan_engine/Resources/Model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Model.cpp.s
+.PHONY : src/trojan_engine/Resources/Model.cpp.s
 
-src/trojan_engine/Texture.obj: src/trojan_engine/Texture.cpp.obj
-.PHONY : src/trojan_engine/Texture.obj
+src/trojan_engine/Resources/Shader.obj: src/trojan_engine/Resources/Shader.cpp.obj
+.PHONY : src/trojan_engine/Resources/Shader.obj
 
 # target to build an object file
-src/trojan_engine/Texture.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.obj
-.PHONY : src/trojan_engine/Texture.cpp.obj
+src/trojan_engine/Resources/Shader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Shader.cpp.obj
+.PHONY : src/trojan_engine/Resources/Shader.cpp.obj
 
-src/trojan_engine/Texture.i: src/trojan_engine/Texture.cpp.i
-.PHONY : src/trojan_engine/Texture.i
+src/trojan_engine/Resources/Shader.i: src/trojan_engine/Resources/Shader.cpp.i
+.PHONY : src/trojan_engine/Resources/Shader.i
 
 # target to preprocess a source file
-src/trojan_engine/Texture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.i
-.PHONY : src/trojan_engine/Texture.cpp.i
+src/trojan_engine/Resources/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Shader.cpp.i
+.PHONY : src/trojan_engine/Resources/Shader.cpp.i
 
-src/trojan_engine/Texture.s: src/trojan_engine/Texture.cpp.s
-.PHONY : src/trojan_engine/Texture.s
+src/trojan_engine/Resources/Shader.s: src/trojan_engine/Resources/Shader.cpp.s
+.PHONY : src/trojan_engine/Resources/Shader.s
 
 # target to generate assembly for a file
-src/trojan_engine/Texture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.s
-.PHONY : src/trojan_engine/Texture.cpp.s
+src/trojan_engine/Resources/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Shader.cpp.s
+.PHONY : src/trojan_engine/Resources/Shader.cpp.s
 
-src/trojan_engine/Transform.obj: src/trojan_engine/Transform.cpp.obj
-.PHONY : src/trojan_engine/Transform.obj
+src/trojan_engine/Resources/Texture.obj: src/trojan_engine/Resources/Texture.cpp.obj
+.PHONY : src/trojan_engine/Resources/Texture.obj
 
 # target to build an object file
-src/trojan_engine/Transform.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Transform.cpp.obj
-.PHONY : src/trojan_engine/Transform.cpp.obj
+src/trojan_engine/Resources/Texture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Texture.cpp.obj
+.PHONY : src/trojan_engine/Resources/Texture.cpp.obj
 
-src/trojan_engine/Transform.i: src/trojan_engine/Transform.cpp.i
-.PHONY : src/trojan_engine/Transform.i
-
-# target to preprocess a source file
-src/trojan_engine/Transform.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Transform.cpp.i
-.PHONY : src/trojan_engine/Transform.cpp.i
-
-src/trojan_engine/Transform.s: src/trojan_engine/Transform.cpp.s
-.PHONY : src/trojan_engine/Transform.s
-
-# target to generate assembly for a file
-src/trojan_engine/Transform.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Transform.cpp.s
-.PHONY : src/trojan_engine/Transform.cpp.s
-
-src/trojan_engine/TriangleRenderer.obj: src/trojan_engine/TriangleRenderer.cpp.obj
-.PHONY : src/trojan_engine/TriangleRenderer.obj
-
-# target to build an object file
-src/trojan_engine/TriangleRenderer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/TriangleRenderer.cpp.obj
-.PHONY : src/trojan_engine/TriangleRenderer.cpp.obj
-
-src/trojan_engine/TriangleRenderer.i: src/trojan_engine/TriangleRenderer.cpp.i
-.PHONY : src/trojan_engine/TriangleRenderer.i
+src/trojan_engine/Resources/Texture.i: src/trojan_engine/Resources/Texture.cpp.i
+.PHONY : src/trojan_engine/Resources/Texture.i
 
 # target to preprocess a source file
-src/trojan_engine/TriangleRenderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/TriangleRenderer.cpp.i
-.PHONY : src/trojan_engine/TriangleRenderer.cpp.i
+src/trojan_engine/Resources/Texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Texture.cpp.i
+.PHONY : src/trojan_engine/Resources/Texture.cpp.i
 
-src/trojan_engine/TriangleRenderer.s: src/trojan_engine/TriangleRenderer.cpp.s
-.PHONY : src/trojan_engine/TriangleRenderer.s
+src/trojan_engine/Resources/Texture.s: src/trojan_engine/Resources/Texture.cpp.s
+.PHONY : src/trojan_engine/Resources/Texture.s
 
 # target to generate assembly for a file
-src/trojan_engine/TriangleRenderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/TriangleRenderer.cpp.s
-.PHONY : src/trojan_engine/TriangleRenderer.cpp.s
+src/trojan_engine/Resources/Texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Texture.cpp.s
+.PHONY : src/trojan_engine/Resources/Texture.cpp.s
 
 # Help Target
 help:
@@ -5387,6 +5387,12 @@ help:
 	@echo ... src/trojan_engine/Component.obj
 	@echo ... src/trojan_engine/Component.i
 	@echo ... src/trojan_engine/Component.s
+	@echo ... src/trojan_engine/Components/Transform.obj
+	@echo ... src/trojan_engine/Components/Transform.i
+	@echo ... src/trojan_engine/Components/Transform.s
+	@echo ... src/trojan_engine/Components/TriangleRenderer.obj
+	@echo ... src/trojan_engine/Components/TriangleRenderer.i
+	@echo ... src/trojan_engine/Components/TriangleRenderer.s
 	@echo ... src/trojan_engine/Core.obj
 	@echo ... src/trojan_engine/Core.i
 	@echo ... src/trojan_engine/Core.s
@@ -5396,27 +5402,21 @@ help:
 	@echo ... src/trojan_engine/Keyboard.obj
 	@echo ... src/trojan_engine/Keyboard.i
 	@echo ... src/trojan_engine/Keyboard.s
-	@echo ... src/trojan_engine/Model.obj
-	@echo ... src/trojan_engine/Model.i
-	@echo ... src/trojan_engine/Model.s
 	@echo ... src/trojan_engine/Resource.obj
 	@echo ... src/trojan_engine/Resource.i
 	@echo ... src/trojan_engine/Resource.s
 	@echo ... src/trojan_engine/Resources.obj
 	@echo ... src/trojan_engine/Resources.i
 	@echo ... src/trojan_engine/Resources.s
-	@echo ... src/trojan_engine/Shader.obj
-	@echo ... src/trojan_engine/Shader.i
-	@echo ... src/trojan_engine/Shader.s
-	@echo ... src/trojan_engine/Texture.obj
-	@echo ... src/trojan_engine/Texture.i
-	@echo ... src/trojan_engine/Texture.s
-	@echo ... src/trojan_engine/Transform.obj
-	@echo ... src/trojan_engine/Transform.i
-	@echo ... src/trojan_engine/Transform.s
-	@echo ... src/trojan_engine/TriangleRenderer.obj
-	@echo ... src/trojan_engine/TriangleRenderer.i
-	@echo ... src/trojan_engine/TriangleRenderer.s
+	@echo ... src/trojan_engine/Resources/Model.obj
+	@echo ... src/trojan_engine/Resources/Model.i
+	@echo ... src/trojan_engine/Resources/Model.s
+	@echo ... src/trojan_engine/Resources/Shader.obj
+	@echo ... src/trojan_engine/Resources/Shader.i
+	@echo ... src/trojan_engine/Resources/Shader.s
+	@echo ... src/trojan_engine/Resources/Texture.obj
+	@echo ... src/trojan_engine/Resources/Texture.i
+	@echo ... src/trojan_engine/Resources/Texture.s
 .PHONY : help
 
 

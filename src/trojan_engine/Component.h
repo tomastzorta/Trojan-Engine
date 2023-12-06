@@ -3,6 +3,7 @@
 
 #include <memory>
 #include <iostream>
+#include <rend/rend.h>
 
 namespace trojan_engine
 {

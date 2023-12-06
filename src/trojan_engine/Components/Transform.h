@@ -5,9 +5,7 @@
 #ifndef TROJAN_ENGINE_TRANSFORM_H
 #define TROJAN_ENGINE_TRANSFORM_H
 
-#include "Component.h"
-
-#include "rend/rend.h"
+#include "trojan_engine/Component.h"
 
 
 namespace trojan_engine

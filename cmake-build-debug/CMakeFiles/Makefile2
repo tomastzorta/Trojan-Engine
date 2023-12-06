@@ -135,8 +135,8 @@ CMakeFiles/pellet.dir/clean:
 # Target rules for target CMakeFiles/trojan_engine.dir
 
 # All Build rule for target.
-CMakeFiles/trojan_engine.dir/all: CMakeFiles/pellet.dir/all
 CMakeFiles/trojan_engine.dir/all: CMakeFiles/rend.dir/all
+CMakeFiles/trojan_engine.dir/all: CMakeFiles/pellet.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trojan_engine.dir\build.make CMakeFiles/trojan_engine.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=94,95,96,97,98,99,100 "Built target trojan_engine"
@@ -162,9 +162,9 @@ CMakeFiles/trojan_engine.dir/clean:
 # Target rules for target CMakeFiles/demo.dir
 
 # All Build rule for target.
+CMakeFiles/demo.dir/all: CMakeFiles/rend.dir/all
 CMakeFiles/demo.dir/all: CMakeFiles/pellet.dir/all
 CMakeFiles/demo.dir/all: CMakeFiles/trojan_engine.dir/all
-CMakeFiles/demo.dir/all: CMakeFiles/rend.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=1 "Built target demo"

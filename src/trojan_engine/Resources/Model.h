@@ -4,7 +4,7 @@
 
 #ifndef MODEL_H
 #define MODEL_H
-#include "Resources.h"
+#include "trojan_engine/Resources.h"
 
 namespace trojan_engine
 {

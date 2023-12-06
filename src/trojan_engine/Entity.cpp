@@ -1,7 +1,7 @@
 #include "Entity.h"
 #include "Component.h"
 #include "Core.h"
-#include "Transform.h"
+#include "Components/Transform.h"
 #include "demo/Player.h"
 
 namespace trojan_engine
@@ -18,9 +18,9 @@ namespace trojan_engine
 
         m_alive = false;
 
-        for (size_t ci = 0; ci < m_components.size(); ++ci)
+        for (auto & m_component : m_components)
         {
-            m_components.at(ci)->Kill();
+            m_component->Kill();
         }
     }
 
@@ -31,17 +31,17 @@ namespace trojan_engine
 
     void Entity::Tick() const
     {
-        for (size_t ci = 0; ci < m_components.size(); ++ci)
+        for (const auto & m_component : m_components)
         {
-            m_components.at(ci)->Tick();
+            m_component->Tick();
         }
     }
 
     void Entity::Display() const
     {
-        for (size_t ci = 0; ci < m_components.size(); ++ci)
+        for (const auto & m_component : m_components)
         {
-            m_components.at(ci)->Display();
+            m_component->Display();
         }
     }
 

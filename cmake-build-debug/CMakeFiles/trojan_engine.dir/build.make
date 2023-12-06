@@ -113,35 +113,35 @@ CMakeFiles/trojan_engine.dir/src/trojan_engine/Component.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trojan_engine.dir/src/trojan_engine/Component.cpp.s"
 	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Component.cpp" -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Component.cpp.s
 
-CMakeFiles/trojan_engine.dir/src/trojan_engine/TriangleRenderer.cpp.obj: CMakeFiles/trojan_engine.dir/flags.make
-CMakeFiles/trojan_engine.dir/src/trojan_engine/TriangleRenderer.cpp.obj: CMakeFiles/trojan_engine.dir/includes_CXX.rsp
-CMakeFiles/trojan_engine.dir/src/trojan_engine/TriangleRenderer.cpp.obj: E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/TriangleRenderer.cpp
-CMakeFiles/trojan_engine.dir/src/trojan_engine/TriangleRenderer.cpp.obj: CMakeFiles/trojan_engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/trojan_engine.dir/src/trojan_engine/TriangleRenderer.cpp.obj"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trojan_engine.dir/src/trojan_engine/TriangleRenderer.cpp.obj -MF CMakeFiles\trojan_engine.dir\src\trojan_engine\TriangleRenderer.cpp.obj.d -o CMakeFiles\trojan_engine.dir\src\trojan_engine\TriangleRenderer.cpp.obj -c "E:\Coding Projects\Trojan-Engine\src\trojan_engine\TriangleRenderer.cpp"
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/TriangleRenderer.cpp.obj: CMakeFiles/trojan_engine.dir/flags.make
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/TriangleRenderer.cpp.obj: CMakeFiles/trojan_engine.dir/includes_CXX.rsp
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/TriangleRenderer.cpp.obj: E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Components/TriangleRenderer.cpp
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/TriangleRenderer.cpp.obj: CMakeFiles/trojan_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/TriangleRenderer.cpp.obj"
+	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/TriangleRenderer.cpp.obj -MF CMakeFiles\trojan_engine.dir\src\trojan_engine\Components\TriangleRenderer.cpp.obj.d -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Components\TriangleRenderer.cpp.obj -c "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Components\TriangleRenderer.cpp"
 
-CMakeFiles/trojan_engine.dir/src/trojan_engine/TriangleRenderer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trojan_engine.dir/src/trojan_engine/TriangleRenderer.cpp.i"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Coding Projects\Trojan-Engine\src\trojan_engine\TriangleRenderer.cpp" > CMakeFiles\trojan_engine.dir\src\trojan_engine\TriangleRenderer.cpp.i
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/TriangleRenderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/TriangleRenderer.cpp.i"
+	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Components\TriangleRenderer.cpp" > CMakeFiles\trojan_engine.dir\src\trojan_engine\Components\TriangleRenderer.cpp.i
 
-CMakeFiles/trojan_engine.dir/src/trojan_engine/TriangleRenderer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trojan_engine.dir/src/trojan_engine/TriangleRenderer.cpp.s"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Coding Projects\Trojan-Engine\src\trojan_engine\TriangleRenderer.cpp" -o CMakeFiles\trojan_engine.dir\src\trojan_engine\TriangleRenderer.cpp.s
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/TriangleRenderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/TriangleRenderer.cpp.s"
+	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Components\TriangleRenderer.cpp" -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Components\TriangleRenderer.cpp.s
 
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Transform.cpp.obj: CMakeFiles/trojan_engine.dir/flags.make
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Transform.cpp.obj: CMakeFiles/trojan_engine.dir/includes_CXX.rsp
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Transform.cpp.obj: E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Transform.cpp
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Transform.cpp.obj: CMakeFiles/trojan_engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/trojan_engine.dir/src/trojan_engine/Transform.cpp.obj"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trojan_engine.dir/src/trojan_engine/Transform.cpp.obj -MF CMakeFiles\trojan_engine.dir\src\trojan_engine\Transform.cpp.obj.d -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Transform.cpp.obj -c "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Transform.cpp"
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/Transform.cpp.obj: CMakeFiles/trojan_engine.dir/flags.make
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/Transform.cpp.obj: CMakeFiles/trojan_engine.dir/includes_CXX.rsp
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/Transform.cpp.obj: E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Components/Transform.cpp
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/Transform.cpp.obj: CMakeFiles/trojan_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/Transform.cpp.obj"
+	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/Transform.cpp.obj -MF CMakeFiles\trojan_engine.dir\src\trojan_engine\Components\Transform.cpp.obj.d -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Components\Transform.cpp.obj -c "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Components\Transform.cpp"
 
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Transform.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trojan_engine.dir/src/trojan_engine/Transform.cpp.i"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Transform.cpp" > CMakeFiles\trojan_engine.dir\src\trojan_engine\Transform.cpp.i
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/Transform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/Transform.cpp.i"
+	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Components\Transform.cpp" > CMakeFiles\trojan_engine.dir\src\trojan_engine\Components\Transform.cpp.i
 
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Transform.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trojan_engine.dir/src/trojan_engine/Transform.cpp.s"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Transform.cpp" -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Transform.cpp.s
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/Transform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/Transform.cpp.s"
+	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Components\Transform.cpp" -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Components\Transform.cpp.s
 
 CMakeFiles/trojan_engine.dir/src/trojan_engine/Resource.cpp.obj: CMakeFiles/trojan_engine.dir/flags.make
 CMakeFiles/trojan_engine.dir/src/trojan_engine/Resource.cpp.obj: CMakeFiles/trojan_engine.dir/includes_CXX.rsp
@@ -158,20 +158,20 @@ CMakeFiles/trojan_engine.dir/src/trojan_engine/Resource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trojan_engine.dir/src/trojan_engine/Resource.cpp.s"
 	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Resource.cpp" -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Resource.cpp.s
 
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.obj: CMakeFiles/trojan_engine.dir/flags.make
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.obj: CMakeFiles/trojan_engine.dir/includes_CXX.rsp
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.obj: E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Texture.cpp
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.obj: CMakeFiles/trojan_engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.obj"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.obj -MF CMakeFiles\trojan_engine.dir\src\trojan_engine\Texture.cpp.obj.d -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Texture.cpp.obj -c "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Texture.cpp"
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Texture.cpp.obj: CMakeFiles/trojan_engine.dir/flags.make
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Texture.cpp.obj: CMakeFiles/trojan_engine.dir/includes_CXX.rsp
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Texture.cpp.obj: E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resources/Texture.cpp
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Texture.cpp.obj: CMakeFiles/trojan_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Texture.cpp.obj"
+	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Texture.cpp.obj -MF CMakeFiles\trojan_engine.dir\src\trojan_engine\Resources\Texture.cpp.obj.d -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Resources\Texture.cpp.obj -c "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Resources\Texture.cpp"
 
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.i"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Texture.cpp" > CMakeFiles\trojan_engine.dir\src\trojan_engine\Texture.cpp.i
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Texture.cpp.i"
+	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Resources\Texture.cpp" > CMakeFiles\trojan_engine.dir\src\trojan_engine\Resources\Texture.cpp.i
 
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.s"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Texture.cpp" -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Texture.cpp.s
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Texture.cpp.s"
+	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Resources\Texture.cpp" -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Resources\Texture.cpp.s
 
 CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources.cpp.obj: CMakeFiles/trojan_engine.dir/flags.make
 CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources.cpp.obj: CMakeFiles/trojan_engine.dir/includes_CXX.rsp
@@ -203,49 +203,49 @@ CMakeFiles/trojan_engine.dir/src/trojan_engine/Keyboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trojan_engine.dir/src/trojan_engine/Keyboard.cpp.s"
 	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Keyboard.cpp" -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Keyboard.cpp.s
 
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Model.cpp.obj: CMakeFiles/trojan_engine.dir/flags.make
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Model.cpp.obj: CMakeFiles/trojan_engine.dir/includes_CXX.rsp
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Model.cpp.obj: E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Model.cpp
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Model.cpp.obj: CMakeFiles/trojan_engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/trojan_engine.dir/src/trojan_engine/Model.cpp.obj"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trojan_engine.dir/src/trojan_engine/Model.cpp.obj -MF CMakeFiles\trojan_engine.dir\src\trojan_engine\Model.cpp.obj.d -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Model.cpp.obj -c "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Model.cpp"
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Model.cpp.obj: CMakeFiles/trojan_engine.dir/flags.make
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Model.cpp.obj: CMakeFiles/trojan_engine.dir/includes_CXX.rsp
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Model.cpp.obj: E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resources/Model.cpp
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Model.cpp.obj: CMakeFiles/trojan_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Model.cpp.obj"
+	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Model.cpp.obj -MF CMakeFiles\trojan_engine.dir\src\trojan_engine\Resources\Model.cpp.obj.d -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Resources\Model.cpp.obj -c "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Resources\Model.cpp"
 
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Model.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trojan_engine.dir/src/trojan_engine/Model.cpp.i"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Model.cpp" > CMakeFiles\trojan_engine.dir\src\trojan_engine\Model.cpp.i
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Model.cpp.i"
+	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Resources\Model.cpp" > CMakeFiles\trojan_engine.dir\src\trojan_engine\Resources\Model.cpp.i
 
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Model.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trojan_engine.dir/src/trojan_engine/Model.cpp.s"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Model.cpp" -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Model.cpp.s
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Model.cpp.s"
+	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Resources\Model.cpp" -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Resources\Model.cpp.s
 
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Shader.cpp.obj: CMakeFiles/trojan_engine.dir/flags.make
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Shader.cpp.obj: CMakeFiles/trojan_engine.dir/includes_CXX.rsp
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Shader.cpp.obj: E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Shader.cpp
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Shader.cpp.obj: CMakeFiles/trojan_engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/trojan_engine.dir/src/trojan_engine/Shader.cpp.obj"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trojan_engine.dir/src/trojan_engine/Shader.cpp.obj -MF CMakeFiles\trojan_engine.dir\src\trojan_engine\Shader.cpp.obj.d -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Shader.cpp.obj -c "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Shader.cpp"
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Shader.cpp.obj: CMakeFiles/trojan_engine.dir/flags.make
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Shader.cpp.obj: CMakeFiles/trojan_engine.dir/includes_CXX.rsp
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Shader.cpp.obj: E:/Coding\ Projects/Trojan-Engine/src/trojan_engine/Resources/Shader.cpp
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Shader.cpp.obj: CMakeFiles/trojan_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Shader.cpp.obj"
+	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Shader.cpp.obj -MF CMakeFiles\trojan_engine.dir\src\trojan_engine\Resources\Shader.cpp.obj.d -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Resources\Shader.cpp.obj -c "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Resources\Shader.cpp"
 
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Shader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trojan_engine.dir/src/trojan_engine/Shader.cpp.i"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Shader.cpp" > CMakeFiles\trojan_engine.dir\src\trojan_engine\Shader.cpp.i
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Shader.cpp.i"
+	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Resources\Shader.cpp" > CMakeFiles\trojan_engine.dir\src\trojan_engine\Resources\Shader.cpp.i
 
-CMakeFiles/trojan_engine.dir/src/trojan_engine/Shader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trojan_engine.dir/src/trojan_engine/Shader.cpp.s"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Shader.cpp" -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Shader.cpp.s
+CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Shader.cpp.s"
+	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Coding Projects\Trojan-Engine\src\trojan_engine\Resources\Shader.cpp" -o CMakeFiles\trojan_engine.dir\src\trojan_engine\Resources\Shader.cpp.s
 
 # Object files for target trojan_engine
 trojan_engine_OBJECTS = \
 "CMakeFiles/trojan_engine.dir/src/trojan_engine/Core.cpp.obj" \
 "CMakeFiles/trojan_engine.dir/src/trojan_engine/Entity.cpp.obj" \
 "CMakeFiles/trojan_engine.dir/src/trojan_engine/Component.cpp.obj" \
-"CMakeFiles/trojan_engine.dir/src/trojan_engine/TriangleRenderer.cpp.obj" \
-"CMakeFiles/trojan_engine.dir/src/trojan_engine/Transform.cpp.obj" \
+"CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/TriangleRenderer.cpp.obj" \
+"CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/Transform.cpp.obj" \
 "CMakeFiles/trojan_engine.dir/src/trojan_engine/Resource.cpp.obj" \
-"CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.obj" \
+"CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Texture.cpp.obj" \
 "CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources.cpp.obj" \
 "CMakeFiles/trojan_engine.dir/src/trojan_engine/Keyboard.cpp.obj" \
-"CMakeFiles/trojan_engine.dir/src/trojan_engine/Model.cpp.obj" \
-"CMakeFiles/trojan_engine.dir/src/trojan_engine/Shader.cpp.obj"
+"CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Model.cpp.obj" \
+"CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Shader.cpp.obj"
 
 # External object files for target trojan_engine
 trojan_engine_EXTERNAL_OBJECTS =
@@ -253,14 +253,14 @@ trojan_engine_EXTERNAL_OBJECTS =
 libtrojan_engine.a: CMakeFiles/trojan_engine.dir/src/trojan_engine/Core.cpp.obj
 libtrojan_engine.a: CMakeFiles/trojan_engine.dir/src/trojan_engine/Entity.cpp.obj
 libtrojan_engine.a: CMakeFiles/trojan_engine.dir/src/trojan_engine/Component.cpp.obj
-libtrojan_engine.a: CMakeFiles/trojan_engine.dir/src/trojan_engine/TriangleRenderer.cpp.obj
-libtrojan_engine.a: CMakeFiles/trojan_engine.dir/src/trojan_engine/Transform.cpp.obj
+libtrojan_engine.a: CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/TriangleRenderer.cpp.obj
+libtrojan_engine.a: CMakeFiles/trojan_engine.dir/src/trojan_engine/Components/Transform.cpp.obj
 libtrojan_engine.a: CMakeFiles/trojan_engine.dir/src/trojan_engine/Resource.cpp.obj
-libtrojan_engine.a: CMakeFiles/trojan_engine.dir/src/trojan_engine/Texture.cpp.obj
+libtrojan_engine.a: CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Texture.cpp.obj
 libtrojan_engine.a: CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources.cpp.obj
 libtrojan_engine.a: CMakeFiles/trojan_engine.dir/src/trojan_engine/Keyboard.cpp.obj
-libtrojan_engine.a: CMakeFiles/trojan_engine.dir/src/trojan_engine/Model.cpp.obj
-libtrojan_engine.a: CMakeFiles/trojan_engine.dir/src/trojan_engine/Shader.cpp.obj
+libtrojan_engine.a: CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Model.cpp.obj
+libtrojan_engine.a: CMakeFiles/trojan_engine.dir/src/trojan_engine/Resources/Shader.cpp.obj
 libtrojan_engine.a: CMakeFiles/trojan_engine.dir/build.make
 libtrojan_engine.a: CMakeFiles/trojan_engine.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library libtrojan_engine.a"

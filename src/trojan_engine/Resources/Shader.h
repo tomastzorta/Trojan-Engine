@@ -4,7 +4,7 @@
 
 #ifndef SHADER_H
 #define SHADER_H
-#include "Resources.h"
+#include "trojan_engine/Resources.h"
 
 namespace trojan_engine
 {
@@ -13,8 +13,6 @@ namespace trojan_engine
     struct Shader : Resource
     {
         void OnLoad() override;
-
-        std::shared_ptr<rend::Shader> GetShader() { return m_shader; }
 
     private:
         std::shared_ptr<rend::Shader> m_shader;

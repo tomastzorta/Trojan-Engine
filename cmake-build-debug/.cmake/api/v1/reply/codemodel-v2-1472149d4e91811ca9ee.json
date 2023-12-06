@@ -45,7 +45,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "demo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-demo-Debug-cd820006a6cbaa1a9cbb.json",
+					"jsonFile" : "target-demo-Debug-1de76eb566e318d227d5.json",
 					"name" : "demo",
 					"projectIndex" : 0
 				},
@@ -66,7 +66,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "trojan_engine::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-trojan_engine-Debug-1a8239d72bdc2e919af4.json",
+					"jsonFile" : "target-trojan_engine-Debug-70c762e815493bc7090e.json",
 					"name" : "trojan_engine",
 					"projectIndex" : 0
 				}

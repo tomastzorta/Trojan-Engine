@@ -11,13 +11,14 @@ namespace trojan_engine
 
     struct Player : Component
     {
-        void onTick() override;
+        void OnTick() override;
 
-        void initialize();
+        void Initialize();
 
 
     private:
         int m_count_ = 0;
+        std::shared_ptr<Keyboard> m_keyboard;
     };
 }
 

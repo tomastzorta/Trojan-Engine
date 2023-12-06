@@ -6,7 +6,7 @@
 
 namespace trojan_engine
 {
-    glm::mat4 Transform::getModel() const
+    glm::mat4 Transform::GetModel() const
     {
         glm::mat4 rtn(1.0f);
         rtn = glm::translate(rtn, position);

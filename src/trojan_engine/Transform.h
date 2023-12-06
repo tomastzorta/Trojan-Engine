@@ -18,7 +18,7 @@ namespace trojan_engine
         glm::vec3 rotation = glm::vec3(0.0f, 0.0f, 0.0f);
         glm::vec3 scale    = glm::vec3(1.0f, 1.0f, 1.0f);
 
-        glm::mat4 getModel() const;
+        glm::mat4 GetModel() const;
 
         void setPosition(glm::vec3 a_translation);
 

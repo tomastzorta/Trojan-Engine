@@ -6,16 +6,16 @@ using namespace trojan_engine;
 int main()
 {
 	SDL_SetMainReady();
-	const std::shared_ptr<Core> core = Core::initialize();
+	const std::shared_ptr<Core> core = Core::Initialize();
 
-	core->addEntity()->addComponent<Player>();
-	auto texture = core->getResources()->load<Texture>("trojan_engine/image.jpg");
+	core->AddEntity()->AddComponent<Player>();
+	const auto texture = core->GetResources()->Load<Texture>("trojan_engine/image.jpg");
 
 	if (!texture) {
 		std::cerr << "Failed to load texture" << std::endl;
 		return -1;
 	}
 
-	core->start();
+	core->Start();
 	return 0;
 }

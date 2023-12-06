@@ -8,13 +8,18 @@
 
 namespace trojan_engine
 {
-    std::string Resource::getPath()
+    void Resource::SetResources(std::weak_ptr<Resources> a_resources)
+    {
+        m_resources = a_resources;
+    }
+
+    std::string Resource::GetPath()
     {
         return m_path;
     }
 
-    void Resource::load()
+    void Resource::Load()
     {
-        onLoad();
+        OnLoad();
     }
 }

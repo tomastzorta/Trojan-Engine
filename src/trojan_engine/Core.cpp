@@ -8,38 +8,38 @@
 
 namespace trojan_engine
 {
-	std::shared_ptr<Core> Core::initialize()
+	std::shared_ptr<Core> Core::Initialize()
 	{
-		std::shared_ptr<Core> rtn = std::make_shared<Core>();
-		rtn->m_self_ = rtn;
+		auto coreInit = std::make_shared<Core>();
+		coreInit->m_self = coreInit;
 
-		rtn->m_resource = std::make_shared<Resources>();
-		rtn->m_keyboard = std::make_shared<Keyboard>();
+		coreInit->m_resource = std::make_shared<Resources>();
+		coreInit->m_keyboard = std::make_shared<Keyboard>();
 
-		std::cout << "Core initialized with address: " << rtn.get() << std::endl;
+		std::cout << "Core initialized with address: " << coreInit.get() << std::endl;
 
 		if (SDL_Init(SDL_INIT_VIDEO) < 0)
 		{
 			throw std::runtime_error("Failed to initialize SDL");
 		}
 
-		rtn->m_window_ = SDL_CreateWindow("Trojan Engine", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 800, 600, SDL_WINDOW_RESIZABLE | SDL_WINDOW_REND);
+		coreInit->m_window = SDL_CreateWindow("Trojan Engine", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 800, 600, SDL_WINDOW_RESIZABLE | SDL_WINDOW_REND);
 
-		if (!rtn->m_window_)
+		if (!coreInit->m_window)
 		{
 			throw std::runtime_error("Failed to create window");
 		}
 
-		rtn->m_context_ = SDL_Rend_CreateContext(rtn->m_window_);
+		coreInit->m_context = SDL_Rend_CreateContext(coreInit->m_window);
 
-		if (!rtn->m_context_)
+		if (!coreInit->m_context)
 		{
 			throw std::runtime_error("Failed to create OpenGL context");
 		}
-		
-		return rtn;
+
+		return coreInit;
 	}
-	void trojan_engine::Core::start()
+	void Core::Start()
 	{
 		SDL_Event event = {0};
 
@@ -53,62 +53,62 @@ namespace trojan_engine
 				}
 				else if (event.type == SDL_KEYDOWN || event.type == SDL_KEYUP)
 				{
-					Event keyboardEvent;
+					Event keyboardEvent{};
 					keyboardEvent.key = event.key.keysym.sym;
 					keyboardEvent.type = event.type == SDL_KEYDOWN ? Event::KEY_PRESSED : Event::KEY_RELEASED;
 					m_keyboard->handleEvent(keyboardEvent);
 				}
 			}
-			for (size_t ei = 0; ei < m_entities_.size(); ei++)
+			for (const auto &m_entity : m_entities)
 			{
-				m_entities_[ei]->tick();
+				m_entity->Tick();
 			}
 
-			for (size_t ei = 0; ei < m_entities_.size(); ei++)
+			for (size_t entityIndex = 0; entityIndex < m_entities.size(); entityIndex++)
 			{
-				if (!m_entities_[ei]->alive())
+				if (!m_entities[entityIndex]->Alive())
 				{
-					m_entities_.erase(m_entities_.begin() +ei);
-					--ei;
+					m_entities.erase(m_entities.begin() + entityIndex);
+					--entityIndex;
 				}
 			}
-			SDL_Rend_ClearWindow(m_window_);
+			SDL_Rend_ClearWindow(m_window);
 			// go through all entity call display
-			for (size_t ei = 0; ei < m_entities_.size(); ei++)
+			for (const auto &m_entity : m_entities)
 			{
-				m_entities_[ei]->display();
+				m_entity->Display();
 			}
-			SDL_GL_SwapWindow(m_window_);
+			SDL_GL_SwapWindow(m_window);
 
 			//clear all pressed and released keys
 			m_keyboard->onTick();
 		}
 			
 	}
-	void trojan_engine::Core::stop()
+	void Core::Stop()
 	{
 		//SDL_DestroyWindow(m_window_);
 		//SDL_Quit();
 		m_running = false;
 	}
-	std::shared_ptr<Entity> Core::addEntity()
+	std::shared_ptr<Entity> Core::AddEntity()
 	{
-		std::shared_ptr<Entity> rtn = std::make_shared<Entity>();
-		rtn->m_core = m_self_;
-		rtn->m_self = rtn;
+		auto newEntity = std::make_shared<Entity>();
+		newEntity->m_core = m_self;
+		newEntity->m_self = newEntity;
 
-		m_entities_.push_back(rtn);
+		m_entities.push_back(newEntity);
 
-		std::cout << "Entity added with Core reference: " << (rtn->m_core.lock() ? "Valid" : "Null") << std::endl;
-		return rtn;
+		std::cout << "Entity added with Core reference: " << (newEntity->m_core.lock() ? "Valid" : "Null") << std::endl;
+		return newEntity;
 	}
 
-    std::shared_ptr<Resources> Core::getResources()
+    std::shared_ptr<Resources> Core::GetResources()
     {
         return m_resource;
     }
 
-	std::shared_ptr<Keyboard> Core::getKeyboard()
+	std::shared_ptr<Keyboard> Core::GetKeyboard()
 	{
 		return m_keyboard;
 	}

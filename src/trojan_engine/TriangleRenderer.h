@@ -13,7 +13,7 @@ namespace trojan_engine
         rend::Shader m_shader_;
 
         void on_initialize();
-        void onDisplay();
+        void OnDisplay();
     };
 }
 

@@ -7,6 +7,7 @@
 
 #include <string>
 #include <memory>
+#include "rend/rend.h"
 
 namespace trojan_engine
 {
@@ -14,15 +15,16 @@ namespace trojan_engine
     struct Resource
     {
         friend struct Resources;
-        virtual void onLoad() = 0;
+        virtual void OnLoad() = 0;
+        void SetResources(std::weak_ptr<Resources> a_resources);
 
-        std::string getPath();
+        std::string GetPath();
 
     private:
         std::string m_path;
         std::weak_ptr<Resources> m_resources;
 
-        void load();
+        void Load();
     };
 }
 

@@ -22,9 +22,9 @@ namespace trojan_engine
         m_shader_.uniform("u_Color", rend::vec4(1.0f, 0.0f, 0.0f, 1.0f));
     }
 
-    void TriangleRenderer::onDisplay()
+    void TriangleRenderer::OnDisplay()
     {
-        m_shader_.uniform("u_Model", getEntity()->getTransform()->getModel());
+        m_shader_.uniform("u_Model", GetEntity()->GetTransform()->GetModel());
         m_shader_.render();
     }
 

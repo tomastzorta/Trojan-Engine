@@ -8,24 +8,31 @@ namespace trojan_engine
 {
 	struct Entity;
     struct Core;
+	struct Transform;
 
 	struct Component
     {
-		std::shared_ptr<Entity> getEntity();
-        std::shared_ptr<Core> getCore();
+		std::shared_ptr<Entity> GetEntity() const;
+        std::shared_ptr<Core> GetCore() const;
+		std::shared_ptr<Transform> GetTransform() const;
+
+
 	private:
 		friend struct Entity;
 
-		virtual void onTick();
-		virtual void onDisplay();
-		virtual void onKill();
+		virtual void OnTick();
+		virtual void OnDisplay();
+		virtual void OnKill();
 
-		void tick();
-		void display();
-		void kill();
-		void initialize();
+		void Tick();
+		void Display();
+		void Kill();
+
+		virtual void Initialize();
+
 		std::weak_ptr<Entity> m_entity;
         std::weak_ptr<Core> m_core;
+		std::weak_ptr<Transform> m_transform;
 	};
 }
 

@@ -15,28 +15,30 @@ namespace trojan_engine
         Entity();
 
         template<typename T>
-        std::shared_ptr<T> addComponent()
+        std::shared_ptr<T> AddComponent()
         {
-            std::shared_ptr<T> rtn = std::make_shared<T>();
+            std::shared_ptr<T> newComponent = std::make_shared<T>();
 
-            rtn->m_entity = m_self;
+            newComponent->m_entity = m_self;
+            newComponent->m_core = m_core;
+            newComponent->m_transform = m_transform;
 
-            rtn->initialize();
-            m_components.push_back(rtn);
+            newComponent->Initialize();
+            m_components.push_back(newComponent);
 
-            return rtn;
+            return newComponent;
         }
 
-        std::shared_ptr<Transform> getTransform();
+        std::shared_ptr<Transform> GetTransform() const;
 
-        bool alive();
-        void kill();
-        std::shared_ptr<Core> getCore();
+        bool Alive() const;
+        void Kill();
+        std::shared_ptr<Core> GetCore() const;
 
     private:
         friend struct Core;
-        void tick();
-        void display();
+        void Tick() const;
+        void Display() const;
 
         bool m_alive = true;
         std::vector<std::shared_ptr<Component> > m_components;

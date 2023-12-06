@@ -9,13 +9,13 @@
 namespace trojan_engine
 {
 
-    void Player::initialize()
+    void Player::Initialize()
     {
-        std::cout << "Player initializing with Core: " << (getEntity()->getCore() ? "Valid" : "Null") << std::endl;
-        getEntity()->addComponent<TriangleRenderer>();
+        GetEntity()->AddComponent<TriangleRenderer>();
+        m_keyboard = GetCore()->GetKeyboard();
     }
 
-    void Player::onTick()
+    void Player::OnTick()
     {
         /*m_count_++;
         if (m_count_ > 10)
@@ -23,12 +23,11 @@ namespace trojan_engine
             //getEntity()->kill();
             //getCore()->stop();
         }*/
-        auto m_keyboard = getEntity()->getCore()->getKeyboard();
-        glm::vec3 position = getEntity()->getTransform()->position;
+
+        glm::vec3 position = GetTransform()->position;
 
         if (m_keyboard->isKeyPressed(SDLK_w)) {
             position.y += 1.0f;
-            std::cout << "W" << std::endl;
         }
         if (m_keyboard->isKeyPressed(SDLK_s)) {
             position.y -= 1.0f;
@@ -40,9 +39,8 @@ namespace trojan_engine
             position.x += 1.0f;
         }
 
-        getEntity()->getTransform()->setPosition(position);
-        getEntity()->getTransform()->Rotate(glm::vec3(0.0f, 1.0f, 0.0f));
-
+        GetTransform()->setPosition(position);
+        GetTransform()->Rotate(glm::vec3(0.0f, 1.0f, 0.0f));
     }
 
 

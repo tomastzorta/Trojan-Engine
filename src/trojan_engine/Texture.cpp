@@ -7,7 +7,7 @@
 namespace trojan_engine
 {
 
-    void Texture::onLoad()
+    void Texture::OnLoad()
     {
 
     }

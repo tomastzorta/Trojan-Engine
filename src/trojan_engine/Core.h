@@ -11,25 +11,25 @@ namespace trojan_engine
 
 	struct Core
 	{
-		static std::shared_ptr<Core> initialize();
-		void start();
-		void stop();
-		std::shared_ptr<Entity> addEntity();
-        std::shared_ptr<Resources> getResources();
-		std::shared_ptr<Keyboard> getKeyboard();
+		static std::shared_ptr<Core> Initialize();
+		void Start();
+		void Stop();
+		std::shared_ptr<Entity> AddEntity();
+        std::shared_ptr<Resources> GetResources();
+		std::shared_ptr<Keyboard> GetKeyboard();
 
 
 	private:
 		bool m_running = true;
 		
-		std::vector<std::shared_ptr<Entity> > m_entities_;
+		std::vector<std::shared_ptr<Entity> > m_entities;
         std::shared_ptr<Resources> m_resource;
 		std::shared_ptr<Keyboard> m_keyboard;
 
 
-		std::weak_ptr<Core> m_self_;
-		SDL_Window* m_window_ = nullptr;
-		SDL_GLContext m_context_ = nullptr;
+		std::weak_ptr<Core> m_self;
+		SDL_Window* m_window = nullptr;
+		SDL_GLContext m_context = nullptr;
 	};
 
 }

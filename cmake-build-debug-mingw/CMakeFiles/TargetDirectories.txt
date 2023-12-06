@@ -1,5 +1,0 @@
-H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/CMakeFiles/rend.dir
-H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/CMakeFiles/trojan_engine.dir
-H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/CMakeFiles/demo.dir
-H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
-H:/WORKSPACE/Trojan-Engine/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir

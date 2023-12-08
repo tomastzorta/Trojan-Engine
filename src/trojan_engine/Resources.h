@@ -30,7 +30,7 @@ namespace trojan_engine
 
             //create new instance, construct it and add to cache
             std::shared_ptr<T> newResource = std::make_shared<T>();
-            newResource->SetResources(m_self);
+            newResource->m_resources = m_self;
             newResource->m_path = _path;
             newResource->Load();
             m_resources.push_back(newResource);

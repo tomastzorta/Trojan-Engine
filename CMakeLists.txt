@@ -218,7 +218,6 @@ add_library (trojan_engine
 		src/trojan_engine/Resources/Texture.h
 		src/trojan_engine/Resources.cpp
 		src/trojan_engine/Resources.h
-		src/trojan_engine/image.jpg
 		src/trojan_engine/Keyboard.cpp
 		src/trojan_engine/Keyboard.h
 		src/trojan_engine/Keyboard.h

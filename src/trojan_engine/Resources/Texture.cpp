@@ -9,7 +9,7 @@ namespace trojan_engine
 
     void Texture::OnLoad()
     {
-
+        m_texture = std::make_shared<rend::Texture>(std::string(GetPath() + ".png").c_str());
     }
 
 }

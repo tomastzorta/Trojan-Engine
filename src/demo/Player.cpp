@@ -3,7 +3,6 @@
 //
 
 #include "trojan_engine/trojanEngine.h"
-#include "trojan_engine/Keyboard.h"
 #include "Player.h"
 
 namespace trojan_engine
@@ -11,7 +10,9 @@ namespace trojan_engine
 
     void Player::Initialize()
     {
-        GetEntity()->AddComponent<TriangleRenderer>();
+        std::shared_ptr<TriangleRenderer> tr = GetEntity()->AddComponent<TriangleRenderer>();
+        std::shared_ptr<Texture> text = GetCore()->GetResources()->Load<Texture>("../assets/image");
+        tr->SetShader(GetCore()->GetResources()->Load<Shader>("../assets/shaders/shader"));
         m_keyboard = GetCore()->GetKeyboard();
     }
 

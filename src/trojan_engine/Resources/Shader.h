@@ -9,12 +9,14 @@
 namespace trojan_engine
 {
     struct Model;
+    struct TriangleRenderer;
 
     struct Shader : Resource
     {
         void OnLoad() override;
 
     private:
+        friend struct TriangleRenderer;
         std::shared_ptr<rend::Shader> m_shader;
     };
 }

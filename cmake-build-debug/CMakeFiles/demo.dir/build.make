@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "E:\Programming Software\CLion Nova\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Users\s5216712\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "E:\Programming Software\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Users\s5216712\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\Coding Projects\Trojan-Engine"
+CMAKE_SOURCE_DIR = H:\WORKSPACE\Trojan-Engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\Coding Projects\Trojan-Engine\cmake-build-debug"
+CMAKE_BINARY_DIR = H:\WORKSPACE\Trojan-Engine\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/demo.dir/depend.make
@@ -70,33 +70,33 @@ include CMakeFiles/demo.dir/flags.make
 
 CMakeFiles/demo.dir/src/demo/main.cpp.obj: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/src/demo/main.cpp.obj: CMakeFiles/demo.dir/includes_CXX.rsp
-CMakeFiles/demo.dir/src/demo/main.cpp.obj: E:/Coding\ Projects/Trojan-Engine/src/demo/main.cpp
+CMakeFiles/demo.dir/src/demo/main.cpp.obj: H:/WORKSPACE/Trojan-Engine/src/demo/main.cpp
 CMakeFiles/demo.dir/src/demo/main.cpp.obj: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/demo.dir/src/demo/main.cpp.obj"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/src/demo/main.cpp.obj -MF CMakeFiles\demo.dir\src\demo\main.cpp.obj.d -o CMakeFiles\demo.dir\src\demo\main.cpp.obj -c "E:\Coding Projects\Trojan-Engine\src\demo\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\WORKSPACE\Trojan-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/demo.dir/src/demo/main.cpp.obj"
+	C:\Users\s5216712\AppData\Local\Programs\CLIONN~1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/src/demo/main.cpp.obj -MF CMakeFiles\demo.dir\src\demo\main.cpp.obj.d -o CMakeFiles\demo.dir\src\demo\main.cpp.obj -c H:\WORKSPACE\Trojan-Engine\src\demo\main.cpp
 
 CMakeFiles/demo.dir/src/demo/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/src/demo/main.cpp.i"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Coding Projects\Trojan-Engine\src\demo\main.cpp" > CMakeFiles\demo.dir\src\demo\main.cpp.i
+	C:\Users\s5216712\AppData\Local\Programs\CLIONN~1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\WORKSPACE\Trojan-Engine\src\demo\main.cpp > CMakeFiles\demo.dir\src\demo\main.cpp.i
 
 CMakeFiles/demo.dir/src/demo/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/src/demo/main.cpp.s"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Coding Projects\Trojan-Engine\src\demo\main.cpp" -o CMakeFiles\demo.dir\src\demo\main.cpp.s
+	C:\Users\s5216712\AppData\Local\Programs\CLIONN~1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\WORKSPACE\Trojan-Engine\src\demo\main.cpp -o CMakeFiles\demo.dir\src\demo\main.cpp.s
 
 CMakeFiles/demo.dir/src/demo/Player.cpp.obj: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/src/demo/Player.cpp.obj: CMakeFiles/demo.dir/includes_CXX.rsp
-CMakeFiles/demo.dir/src/demo/Player.cpp.obj: E:/Coding\ Projects/Trojan-Engine/src/demo/Player.cpp
+CMakeFiles/demo.dir/src/demo/Player.cpp.obj: H:/WORKSPACE/Trojan-Engine/src/demo/Player.cpp
 CMakeFiles/demo.dir/src/demo/Player.cpp.obj: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/demo.dir/src/demo/Player.cpp.obj"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/src/demo/Player.cpp.obj -MF CMakeFiles\demo.dir\src\demo\Player.cpp.obj.d -o CMakeFiles\demo.dir\src\demo\Player.cpp.obj -c "E:\Coding Projects\Trojan-Engine\src\demo\Player.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\WORKSPACE\Trojan-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/demo.dir/src/demo/Player.cpp.obj"
+	C:\Users\s5216712\AppData\Local\Programs\CLIONN~1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/src/demo/Player.cpp.obj -MF CMakeFiles\demo.dir\src\demo\Player.cpp.obj.d -o CMakeFiles\demo.dir\src\demo\Player.cpp.obj -c H:\WORKSPACE\Trojan-Engine\src\demo\Player.cpp
 
 CMakeFiles/demo.dir/src/demo/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/src/demo/Player.cpp.i"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Coding Projects\Trojan-Engine\src\demo\Player.cpp" > CMakeFiles\demo.dir\src\demo\Player.cpp.i
+	C:\Users\s5216712\AppData\Local\Programs\CLIONN~1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\WORKSPACE\Trojan-Engine\src\demo\Player.cpp > CMakeFiles\demo.dir\src\demo\Player.cpp.i
 
 CMakeFiles/demo.dir/src/demo/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/src/demo/Player.cpp.s"
-	"E:\Programming Software\CLion Nova\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Coding Projects\Trojan-Engine\src\demo\Player.cpp" -o CMakeFiles\demo.dir\src\demo\Player.cpp.s
+	C:\Users\s5216712\AppData\Local\Programs\CLIONN~1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\WORKSPACE\Trojan-Engine\src\demo\Player.cpp -o CMakeFiles\demo.dir\src\demo\Player.cpp.s
 
 # Object files for target demo
 demo_OBJECTS = \
@@ -115,7 +115,7 @@ demo.exe: libpellet.a
 demo.exe: CMakeFiles/demo.dir/linkLibs.rsp
 demo.exe: CMakeFiles/demo.dir/objects1.rsp
 demo.exe: CMakeFiles/demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable demo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=H:\WORKSPACE\Trojan-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable demo.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\demo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/demo.dir/clean:
 .PHONY : CMakeFiles/demo.dir/clean
 
 CMakeFiles/demo.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\Coding Projects\Trojan-Engine" "E:\Coding Projects\Trojan-Engine" "E:\Coding Projects\Trojan-Engine\cmake-build-debug" "E:\Coding Projects\Trojan-Engine\cmake-build-debug" "E:\Coding Projects\Trojan-Engine\cmake-build-debug\CMakeFiles\demo.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" H:\WORKSPACE\Trojan-Engine H:\WORKSPACE\Trojan-Engine H:\WORKSPACE\Trojan-Engine\cmake-build-debug H:\WORKSPACE\Trojan-Engine\cmake-build-debug H:\WORKSPACE\Trojan-Engine\cmake-build-debug\CMakeFiles\demo.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/demo.dir/depend
 

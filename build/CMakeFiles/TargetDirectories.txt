@@ -1,5 +1,0 @@
-C:/Users/TrojanHorse/Documents/University/MY-GAME-ENGINE/build/CMakeFiles/rend.dir
-C:/Users/TrojanHorse/Documents/University/MY-GAME-ENGINE/build/CMakeFiles/trojan_engine.dir
-C:/Users/TrojanHorse/Documents/University/MY-GAME-ENGINE/build/CMakeFiles/demo.dir
-C:/Users/TrojanHorse/Documents/University/MY-GAME-ENGINE/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/TrojanHorse/Documents/University/MY-GAME-ENGINE/build/CMakeFiles/ZERO_CHECK.dir

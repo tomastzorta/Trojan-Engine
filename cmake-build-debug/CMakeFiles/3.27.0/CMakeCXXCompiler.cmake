@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "E:/Programming Software/CLion Nova/bin/mingw/bin/g++.exe")
+set(CMAKE_CXX_COMPILER "C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "13.1.0")
@@ -22,11 +22,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "E:/Programming Software/CLion Nova/bin/mingw/bin/ar.exe")
-set(CMAKE_CXX_COMPILER_AR "E:/Programming Software/CLion Nova/bin/mingw/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "E:/Programming Software/CLion Nova/bin/mingw/bin/ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "E:/Programming Software/CLion Nova/bin/mingw/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "E:/Programming Software/CLion Nova/bin/mingw/bin/ld.exe")
+set(CMAKE_AR "C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/bin/ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_TAPI "CMAKE_TAPI-NOTFOUND")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
@@ -79,7 +79,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "E:/Programming Software/CLion Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;E:/Programming Software/CLion Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;E:/Programming Software/CLion Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;E:/Programming Software/CLion Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;E:/Programming Software/CLion Nova/bin/mingw/include;E:/Programming Software/CLion Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;E:/Programming Software/CLion Nova/bin/mingw/x86_64-w64-mingw32/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/include;C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;C:/Users/s5216712/AppData/Local/Programs/CLion Nova/bin/mingw/x86_64-w64-mingw32/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

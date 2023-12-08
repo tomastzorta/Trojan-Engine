@@ -16,11 +16,12 @@ namespace trojan_engine
     {
         friend struct Resources;
         virtual void OnLoad() = 0;
-        void SetResources(std::weak_ptr<Resources> a_resources);
+
 
         std::string GetPath();
 
     private:
+        friend struct Resources;
         std::string m_path;
         std::weak_ptr<Resources> m_resources;
 

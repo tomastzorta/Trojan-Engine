@@ -10,6 +10,7 @@ namespace trojan_engine
 {
     struct Model;
     struct TriangleRenderer;
+    struct ModelRenderer;
 
     struct Shader : Resource
     {
@@ -17,6 +18,7 @@ namespace trojan_engine
 
     private:
         friend struct TriangleRenderer;
+        friend struct ModelRenderer;
         std::shared_ptr<rend::Shader> m_shader;
     };
 }

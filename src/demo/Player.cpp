@@ -10,9 +10,13 @@ namespace trojan_engine
 
     void Player::Initialize()
     {
-        std::shared_ptr<TriangleRenderer> tr = GetEntity()->AddComponent<TriangleRenderer>();
-        std::shared_ptr<Texture> text = GetCore()->GetResources()->Load<Texture>("../assets/image");
-        tr->SetShader(GetCore()->GetResources()->Load<Shader>("../assets/shaders/shader"));
+        //std::shared_ptr<TriangleRenderer> tr = GetEntity()->AddComponent<TriangleRenderer>();
+        //std::shared_ptr<Texture> text = GetCore()->GetResources()->Load<Texture>("../assets/image");
+        std::shared_ptr<Model> model = GetCore()->GetResources()->Load<Model>("../assets/models/curuthers");
+        //tr->SetShader(GetCore()->GetResources()->Load<Shader>("../assets/shaders/shader"));
+       // tr->SetTexture(text);
+        std::shared_ptr<ModelRenderer> mr = GetEntity()->AddComponent<ModelRenderer>();
+        mr->SetModel(model);
         m_keyboard = GetCore()->GetKeyboard();
     }
 

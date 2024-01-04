@@ -225,6 +225,8 @@ add_library (trojan_engine
 		src/trojan_engine/Resources/Model.h
 		src/trojan_engine/Resources/Shader.cpp
 		src/trojan_engine/Resources/Shader.h
+		src/trojan_engine/Components/ModelRenderer.cpp
+		src/trojan_engine/Components/ModelRenderer.h
 
 )
 target_link_libraries(trojan_engine rend SDL2 pellet)

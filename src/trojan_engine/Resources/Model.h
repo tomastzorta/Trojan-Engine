@@ -4,19 +4,21 @@
 
 #ifndef MODEL_H
 #define MODEL_H
+
 #include "trojan_engine/Resources.h"
 
 namespace trojan_engine
 {
     struct Texture;
+    struct Model;
 
     struct Model : Resource
     {
         void OnLoad() override;
 
     private:
-        std::shared_ptr<rend::Mesh> m_mesh;
-        std::shared_ptr<Texture> m_texture;
+        friend struct ModelRenderer;
+        std::shared_ptr<rend::Model> m_model;
     };
 }
 

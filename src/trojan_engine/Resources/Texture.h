@@ -10,11 +10,16 @@
 
 namespace trojan_engine
 {
+    struct TriangleRenderer;
+    struct ModelRenderer;
+
     struct Texture : Resource
     {
         void OnLoad() override;
 
     private:
+        friend struct TriangleRenderer;
+        friend struct ModelRenderer;
         std::shared_ptr<rend::Texture> m_texture;
     };
 }
